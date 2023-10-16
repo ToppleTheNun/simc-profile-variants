@@ -29,7 +29,7 @@ jobs:
         uses: ToppleTheNun/action-pnpm-install@v1
 
       - name: 🔄 Sync Sim Data
-        run: pnpm run build
+        run: pnpm run update && pnpm run build
 
       - name: 📤 Commit and Push
         id: commit_and_push
