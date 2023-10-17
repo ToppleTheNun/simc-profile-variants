@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "generate embellishment templates",
+  "packageName": "@topplethenun/simc-profile-variants-sims-config",
+  "email": "topplethenunnery@gmail.com",
+  "dependentChangeType": "patch"
+}

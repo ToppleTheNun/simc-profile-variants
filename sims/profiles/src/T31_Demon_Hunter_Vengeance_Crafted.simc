@@ -8,7 +8,7 @@ position=front
 talents=BUkAAAAAAAAAAAAAAAAAAAAAAAASiEJCJIJBkIlkQiWiEJSCJplk0kkWSQAAAAAJJA
 
 head=lifebound_cap,id=193400,bonus_id=9498/9500/9405/8780,gem_id=192919
-neck=torc_of_passed_time,id=201759,bonus_id=9500/9498//9405/8782,gem_id=192919/192919/192919,crafted_stats=36/32
+neck=torc_of_passed_time,id=201759,bonus_id=9500/9498/9405/8782,gem_id=192919/192919/192919,crafted_stats=36/32
 shoulders=lifebound_shoulderpads,id=193406,bonus_id=9498/9500/9405
 back=screaming_torchfiends_shawl,id=207258,bonus_id=7187/1520
 chest=lifebound_chestpiece,id=193399,bonus_id=9498/9500/9405,enchant_id=6625
