@@ -1,0 +1,20 @@
+{
+  "name": "@topplethenun/simc-profile-variants-sims-templates",
+  "entries": [
+    {
+      "date": "Tue, 17 Oct 2023 04:47:03 GMT",
+      "version": "0.0.5",
+      "tag": "@topplethenun/simc-profile-variants-sims-templates_v0.0.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "topplethenunnery@gmail.com",
+            "package": "@topplethenun/simc-profile-variants-sims-templates",
+            "commit": "6aeff9b7bb2baa2b711390b0ce176226327faac2",
+            "comment": "generate embellishment templates"
+          }
+        ]
+      }
+    }
+  ]
+}
