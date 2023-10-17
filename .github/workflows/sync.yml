@@ -40,7 +40,7 @@ jobs:
           git config user.email github-actions@github.com
           git remote set-url origin "https://ToppleTheNun:$REPO_TOKEN@github.com/ToppleTheNun/simc-profile-variants"
         env:
-          REPO_PAT: ${{ secrets.REPO_PAT }}
+          REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
 
       - name: 🚀 Publish to NPM
         run: npm run release -- --token "$NPM_TOKEN"
