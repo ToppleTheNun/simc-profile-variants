@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "update Double Time bonus IDs",
-  "packageName": "@topplethenun/simc-profile-variants-sims-generators",
-  "email": "topplethenunnery@gmail.com",
-  "dependentChangeType": "patch"
-}

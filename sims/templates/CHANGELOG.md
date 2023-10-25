@@ -1,8 +1,16 @@
 # Change Log - @topplethenun/simc-profile-variants-sims-templates
 
-This log was last generated on Wed, 25 Oct 2023 18:07:16 GMT and should not be manually modified.
+This log was last generated on Wed, 25 Oct 2023 18:20:39 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.0.7
+
+Wed, 25 Oct 2023 18:20:39 GMT
+
+### Patches
+
+- update Double Time bonus IDs (topplethenunnery@gmail.com)
 
 ## 0.0.6
 

@@ -2,6 +2,21 @@
   "name": "@topplethenun/simc-profile-variants-sims-generators",
   "entries": [
     {
+      "date": "Wed, 25 Oct 2023 18:20:39 GMT",
+      "version": "0.0.7",
+      "tag": "@topplethenun/simc-profile-variants-sims-generators_v0.0.7",
+      "comments": {
+        "patch": [
+          {
+            "author": "topplethenunnery@gmail.com",
+            "package": "@topplethenun/simc-profile-variants-sims-generators",
+            "commit": "dfae613ba302d1d7c6b1fbe44468675e27e49095",
+            "comment": "update Double Time bonus IDs"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 25 Oct 2023 18:07:16 GMT",
       "version": "0.0.6",
       "tag": "@topplethenun/simc-profile-variants-sims-generators_v0.0.6",
