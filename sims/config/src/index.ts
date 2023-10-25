@@ -34,6 +34,8 @@ const createDefaultConfigForProfile = (profile: Profile): Config => ({
 export const T31_Demon_Hunter_Vengeance: Config = createDefaultConfigForProfile(
   "T31_Demon_Hunter_Vengeance",
 );
+export const T31_Demon_Hunter_Vengeance_5p: Config =
+  createDefaultConfigForProfile("T31_Demon_Hunter_Vengeance_5p");
 export const T31_Demon_Hunter_Vengeance_Crafted: Config =
   createDefaultConfigForProfile("T31_Demon_Hunter_Vengeance_Crafted");
 /* eslint-enable camelcase -- Enabling because the rest does not need to match simc. */
@@ -42,6 +44,7 @@ export type ConfigMapping = Record<Profile, Config>;
 export const defaultConfigMapping: ConfigMapping = {
   /* eslint-disable camelcase -- Disabling because this needs to match simc. */
   T31_Demon_Hunter_Vengeance,
+  T31_Demon_Hunter_Vengeance_5p,
   T31_Demon_Hunter_Vengeance_Crafted,
   /* eslint-enable camelcase -- Enabling because the rest does not need to match simc. */
 };

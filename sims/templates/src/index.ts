@@ -7,6 +7,10 @@ import {
 } from "@topplethenun/simc-profile-variants-sims-generators";
 import { type Profile } from "@topplethenun/simc-profile-variants-sims-profiles";
 import { snakeToPascal } from "@topplethenun/simc-profile-variants-sims-utils";
+import T31DemonHunterVengeance5pEmbellishmentsCouncilRaid from "./T31_Demon_Hunter_Vengeance_5p_embellishments_CouncilRaid.simc";
+import T31DemonHunterVengeance5pEmbellishmentsMythicPlusLargePack from "./T31_Demon_Hunter_Vengeance_5p_embellishments_MythicPlusLargePack.simc";
+import T31DemonHunterVengeance5pEmbellishmentsMythicPlusSmallPack from "./T31_Demon_Hunter_Vengeance_5p_embellishments_MythicPlusSmallPack.simc";
+import T31DemonHunterVengeance5pEmbellishmentsSingleTargetRaid from "./T31_Demon_Hunter_Vengeance_5p_embellishments_SingleTargetRaid.simc";
 import T31DemonHunterVengeanceCraftedEmbellishmentsCouncilRaid from "./T31_Demon_Hunter_Vengeance_Crafted_embellishments_CouncilRaid.simc";
 import T31DemonHunterVengeanceCraftedEmbellishmentsMythicPlusLargePack from "./T31_Demon_Hunter_Vengeance_Crafted_embellishments_MythicPlusLargePack.simc";
 import T31DemonHunterVengeanceCraftedEmbellishmentsMythicPlusSmallPack from "./T31_Demon_Hunter_Vengeance_Crafted_embellishments_MythicPlusSmallPack.simc";
@@ -29,6 +33,14 @@ import T31DemonHunterVengeanceWeaponsMythicPlusSmallPack from "./T31_Demon_Hunte
 import T31DemonHunterVengeanceWeaponsSingleTargetRaid from "./T31_Demon_Hunter_Vengeance_weapons_SingleTargetRaid.simc";
 
 /* eslint-disable camelcase -- Disabling because this needs to match simc. */
+export const T31_Demon_Hunter_Vengeance_5p_embellishments_CouncilRaid: string =
+  T31DemonHunterVengeance5pEmbellishmentsCouncilRaid;
+export const T31_Demon_Hunter_Vengeance_5p_embellishments_MythicPlusLargePack: string =
+  T31DemonHunterVengeance5pEmbellishmentsMythicPlusLargePack;
+export const T31_Demon_Hunter_Vengeance_5p_embellishments_MythicPlusSmallPack: string =
+  T31DemonHunterVengeance5pEmbellishmentsMythicPlusSmallPack;
+export const T31_Demon_Hunter_Vengeance_5p_embellishments_SingleTargetRaid: string =
+  T31DemonHunterVengeance5pEmbellishmentsSingleTargetRaid;
 export const T31_Demon_Hunter_Vengeance_Crafted_embellishments_CouncilRaid: string =
   T31DemonHunterVengeanceCraftedEmbellishmentsCouncilRaid;
 export const T31_Demon_Hunter_Vengeance_Crafted_embellishments_MythicPlusLargePack: string =
@@ -72,6 +84,10 @@ export const T31_Demon_Hunter_Vengeance_weapons_SingleTargetRaid: string =
 /* eslint-enable camelcase -- Enabling because the rest does not need to match simc. */
 
 export const templates = [
+  "T31_Demon_Hunter_Vengeance_5p_embellishments_CouncilRaid",
+  "T31_Demon_Hunter_Vengeance_5p_embellishments_MythicPlusLargePack",
+  "T31_Demon_Hunter_Vengeance_5p_embellishments_MythicPlusSmallPack",
+  "T31_Demon_Hunter_Vengeance_5p_embellishments_SingleTargetRaid",
   "T31_Demon_Hunter_Vengeance_Crafted_embellishments_CouncilRaid",
   "T31_Demon_Hunter_Vengeance_Crafted_embellishments_MythicPlusLargePack",
   "T31_Demon_Hunter_Vengeance_Crafted_embellishments_MythicPlusSmallPack",
@@ -99,6 +115,10 @@ export const isTemplate = (s: unknown): s is Template =>
 
 const templateMapping: Record<Template, string> = {
   /* eslint-disable camelcase -- Disabling because this needs to match simc. */
+  T31_Demon_Hunter_Vengeance_5p_embellishments_CouncilRaid,
+  T31_Demon_Hunter_Vengeance_5p_embellishments_MythicPlusLargePack,
+  T31_Demon_Hunter_Vengeance_5p_embellishments_MythicPlusSmallPack,
+  T31_Demon_Hunter_Vengeance_5p_embellishments_SingleTargetRaid,
   T31_Demon_Hunter_Vengeance_Crafted_embellishments_CouncilRaid,
   T31_Demon_Hunter_Vengeance_Crafted_embellishments_MythicPlusLargePack,
   T31_Demon_Hunter_Vengeance_Crafted_embellishments_MythicPlusSmallPack,

@@ -30,6 +30,9 @@ const configMapping: ConfigMapping = getModifiedConfigMapping(
       getGeneratorByName('embellishments'),
       getGeneratorByName('weapons'),
     ];
+    mapping.T31_Demon_Hunter_Vengeance_5p.matrix.generators = [
+      getGeneratorByName('embellishments'),
+    ];
   },
 );
 
