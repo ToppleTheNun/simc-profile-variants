@@ -2,6 +2,21 @@
   "name": "@topplethenun/simc-profile-variants-sims-config",
   "entries": [
     {
+      "date": "Wed, 25 Oct 2023 18:58:28 GMT",
+      "version": "0.0.8",
+      "tag": "@topplethenun/simc-profile-variants-sims-config_v0.0.8",
+      "comments": {
+        "patch": [
+          {
+            "author": "topplethenunnery@gmail.com",
+            "package": "@topplethenun/simc-profile-variants-sims-config",
+            "commit": "379aada4cb548b159f00b236d5fa4814cb1c6e88",
+            "comment": "add 5p embellishments test"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 17 Oct 2023 04:47:03 GMT",
       "version": "0.0.5",
       "tag": "@topplethenun/simc-profile-variants-sims-config_v0.0.5",
