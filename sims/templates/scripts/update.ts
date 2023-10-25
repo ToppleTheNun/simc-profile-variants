@@ -28,6 +28,7 @@ const configMapping: ConfigMapping = getModifiedConfigMapping(
       );
     mapping.T31_Demon_Hunter_Vengeance_Crafted.matrix.generators = [
       getGeneratorByName('embellishments'),
+      getGeneratorByName('weapons'),
     ];
   },
 );

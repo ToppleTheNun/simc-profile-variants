@@ -11,6 +11,10 @@ import T31DemonHunterVengeanceCraftedEmbellishmentsCouncilRaid from "./T31_Demon
 import T31DemonHunterVengeanceCraftedEmbellishmentsMythicPlusLargePack from "./T31_Demon_Hunter_Vengeance_Crafted_embellishments_MythicPlusLargePack.simc";
 import T31DemonHunterVengeanceCraftedEmbellishmentsMythicPlusSmallPack from "./T31_Demon_Hunter_Vengeance_Crafted_embellishments_MythicPlusSmallPack.simc";
 import T31DemonHunterVengeanceCraftedEmbellishmentsSingleTargetRaid from "./T31_Demon_Hunter_Vengeance_Crafted_embellishments_SingleTargetRaid.simc";
+import T31DemonHunterVengeanceCraftedWeaponsCouncilRaid from "./T31_Demon_Hunter_Vengeance_Crafted_weapons_CouncilRaid.simc";
+import T31DemonHunterVengeanceCraftedWeaponsMythicPlusLargePack from "./T31_Demon_Hunter_Vengeance_Crafted_weapons_MythicPlusLargePack.simc";
+import T31DemonHunterVengeanceCraftedWeaponsMythicPlusSmallPack from "./T31_Demon_Hunter_Vengeance_Crafted_weapons_MythicPlusSmallPack.simc";
+import T31DemonHunterVengeanceCraftedWeaponsSingleTargetRaid from "./T31_Demon_Hunter_Vengeance_Crafted_weapons_SingleTargetRaid.simc";
 import T31DemonHunterVengeanceRingsCouncilRaid from "./T31_Demon_Hunter_Vengeance_rings_CouncilRaid.simc";
 import T31DemonHunterVengeanceRingsMythicPlusLargePack from "./T31_Demon_Hunter_Vengeance_rings_MythicPlusLargePack.simc";
 import T31DemonHunterVengeanceRingsMythicPlusSmallPack from "./T31_Demon_Hunter_Vengeance_rings_MythicPlusSmallPack.simc";
@@ -33,6 +37,14 @@ export const T31_Demon_Hunter_Vengeance_Crafted_embellishments_MythicPlusSmallPa
   T31DemonHunterVengeanceCraftedEmbellishmentsMythicPlusSmallPack;
 export const T31_Demon_Hunter_Vengeance_Crafted_embellishments_SingleTargetRaid: string =
   T31DemonHunterVengeanceCraftedEmbellishmentsSingleTargetRaid;
+export const T31_Demon_Hunter_Vengeance_Crafted_weapons_CouncilRaid: string =
+  T31DemonHunterVengeanceCraftedWeaponsCouncilRaid;
+export const T31_Demon_Hunter_Vengeance_Crafted_weapons_MythicPlusLargePack: string =
+  T31DemonHunterVengeanceCraftedWeaponsMythicPlusLargePack;
+export const T31_Demon_Hunter_Vengeance_Crafted_weapons_MythicPlusSmallPack: string =
+  T31DemonHunterVengeanceCraftedWeaponsMythicPlusSmallPack;
+export const T31_Demon_Hunter_Vengeance_Crafted_weapons_SingleTargetRaid: string =
+  T31DemonHunterVengeanceCraftedWeaponsSingleTargetRaid;
 export const T31_Demon_Hunter_Vengeance_rings_CouncilRaid: string =
   T31DemonHunterVengeanceRingsCouncilRaid;
 export const T31_Demon_Hunter_Vengeance_rings_MythicPlusLargePack: string =
@@ -64,6 +76,10 @@ export const templates = [
   "T31_Demon_Hunter_Vengeance_Crafted_embellishments_MythicPlusLargePack",
   "T31_Demon_Hunter_Vengeance_Crafted_embellishments_MythicPlusSmallPack",
   "T31_Demon_Hunter_Vengeance_Crafted_embellishments_SingleTargetRaid",
+  "T31_Demon_Hunter_Vengeance_Crafted_weapons_CouncilRaid",
+  "T31_Demon_Hunter_Vengeance_Crafted_weapons_MythicPlusLargePack",
+  "T31_Demon_Hunter_Vengeance_Crafted_weapons_MythicPlusSmallPack",
+  "T31_Demon_Hunter_Vengeance_Crafted_weapons_SingleTargetRaid",
   "T31_Demon_Hunter_Vengeance_rings_CouncilRaid",
   "T31_Demon_Hunter_Vengeance_rings_MythicPlusLargePack",
   "T31_Demon_Hunter_Vengeance_rings_MythicPlusSmallPack",
@@ -87,6 +103,10 @@ const templateMapping: Record<Template, string> = {
   T31_Demon_Hunter_Vengeance_Crafted_embellishments_MythicPlusLargePack,
   T31_Demon_Hunter_Vengeance_Crafted_embellishments_MythicPlusSmallPack,
   T31_Demon_Hunter_Vengeance_Crafted_embellishments_SingleTargetRaid,
+  T31_Demon_Hunter_Vengeance_Crafted_weapons_CouncilRaid,
+  T31_Demon_Hunter_Vengeance_Crafted_weapons_MythicPlusLargePack,
+  T31_Demon_Hunter_Vengeance_Crafted_weapons_MythicPlusSmallPack,
+  T31_Demon_Hunter_Vengeance_Crafted_weapons_SingleTargetRaid,
   T31_Demon_Hunter_Vengeance_rings_CouncilRaid,
   T31_Demon_Hunter_Vengeance_rings_MythicPlusLargePack,
   T31_Demon_Hunter_Vengeance_rings_MythicPlusSmallPack,

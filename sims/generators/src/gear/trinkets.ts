@@ -46,7 +46,7 @@ export const gear: Gear[] = [
   {
     name: 'Augury',
     slot: 'trinket1',
-    options: 'augury_of_the_primal_flame,id=208614,bonus_id=7187/1520',
+    options: 'augury_of_the_primal_flame,id=208614,bonus_id=7187/1527',
     uniqueId: 208614,
   },
   {
