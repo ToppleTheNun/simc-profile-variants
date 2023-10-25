@@ -33,13 +33,13 @@ export const gear: Gear[] = [
     name: 'Timestrike (Sophic)',
     slot: 'main_hand',
     options:
-      'double_time,id=207991,bonus_id=6536/1540/6646,enchant=sophic_devotion_3',
+      'double_time,id=207991,bonus_id=6646/6536/1611,enchant=sophic_devotion_3',
   },
   {
     name: 'Timestrike (Wafting)',
     slot: 'main_hand',
     options:
-      'double_time,id=207991,bonus_id=6536/1540/6646,enchant=wafting_devotion_3',
+      'double_time,id=207991,bonus_id=6646/6536/1611,enchant=wafting_devotion_3',
   },
   {
     name: 'Crafted (Sophic)',

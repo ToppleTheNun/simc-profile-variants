@@ -54,10 +54,10 @@ profileset."Thorncaller (Sophic) / Gholak (Wafting)"+=main_hand=thorncaller_claw
 profileset."Thorncaller (Sophic) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3
 
 profileset."Thorncaller (Sophic) / Timestrike (Sophic)"+=main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=sophic_devotion_3
-profileset."Thorncaller (Sophic) / Timestrike (Sophic)"+=off_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=sophic_devotion_3
+profileset."Thorncaller (Sophic) / Timestrike (Sophic)"+=off_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=sophic_devotion_3
 
 profileset."Thorncaller (Sophic) / Timestrike (Wafting)"+=main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=sophic_devotion_3
-profileset."Thorncaller (Sophic) / Timestrike (Wafting)"+=off_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=wafting_devotion_3
+profileset."Thorncaller (Sophic) / Timestrike (Wafting)"+=off_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=wafting_devotion_3
 
 profileset."Thorncaller (Sophic) / Crafted (Sophic)"+=main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=sophic_devotion_3
 profileset."Thorncaller (Sophic) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32
@@ -72,10 +72,10 @@ profileset."Thorncaller (Wafting) / Gholak (Wafting)"+=main_hand=thorncaller_cla
 profileset."Thorncaller (Wafting) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3
 
 profileset."Thorncaller (Wafting) / Timestrike (Sophic)"+=main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=wafting_devotion_3
-profileset."Thorncaller (Wafting) / Timestrike (Sophic)"+=off_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=sophic_devotion_3
+profileset."Thorncaller (Wafting) / Timestrike (Sophic)"+=off_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=sophic_devotion_3
 
 profileset."Thorncaller (Wafting) / Timestrike (Wafting)"+=main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=wafting_devotion_3
-profileset."Thorncaller (Wafting) / Timestrike (Wafting)"+=off_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=wafting_devotion_3
+profileset."Thorncaller (Wafting) / Timestrike (Wafting)"+=off_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=wafting_devotion_3
 
 profileset."Thorncaller (Wafting) / Crafted (Sophic)"+=main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=wafting_devotion_3
 profileset."Thorncaller (Wafting) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32
@@ -90,10 +90,10 @@ profileset."Gholak (Sophic) / Thorncaller (Wafting)"+=main_hand=gholak_the_final
 profileset."Gholak (Sophic) / Thorncaller (Wafting)"+=off_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=wafting_devotion_3
 
 profileset."Gholak (Sophic) / Timestrike (Sophic)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=sophic_devotion_3
-profileset."Gholak (Sophic) / Timestrike (Sophic)"+=off_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=sophic_devotion_3
+profileset."Gholak (Sophic) / Timestrike (Sophic)"+=off_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=sophic_devotion_3
 
 profileset."Gholak (Sophic) / Timestrike (Wafting)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=sophic_devotion_3
-profileset."Gholak (Sophic) / Timestrike (Wafting)"+=off_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=wafting_devotion_3
+profileset."Gholak (Sophic) / Timestrike (Wafting)"+=off_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=wafting_devotion_3
 
 profileset."Gholak (Sophic) / Crafted (Sophic)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=sophic_devotion_3
 profileset."Gholak (Sophic) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32
@@ -108,10 +108,10 @@ profileset."Gholak (Wafting) / Thorncaller (Wafting)"+=main_hand=gholak_the_fina
 profileset."Gholak (Wafting) / Thorncaller (Wafting)"+=off_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=wafting_devotion_3
 
 profileset."Gholak (Wafting) / Timestrike (Sophic)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3
-profileset."Gholak (Wafting) / Timestrike (Sophic)"+=off_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=sophic_devotion_3
+profileset."Gholak (Wafting) / Timestrike (Sophic)"+=off_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=sophic_devotion_3
 
 profileset."Gholak (Wafting) / Timestrike (Wafting)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3
-profileset."Gholak (Wafting) / Timestrike (Wafting)"+=off_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=wafting_devotion_3
+profileset."Gholak (Wafting) / Timestrike (Wafting)"+=off_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=wafting_devotion_3
 
 profileset."Gholak (Wafting) / Crafted (Sophic)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3
 profileset."Gholak (Wafting) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32
@@ -119,52 +119,52 @@ profileset."Gholak (Wafting) / Crafted (Sophic)"+=off_hand=primal_molten_warglai
 profileset."Gholak (Wafting) / Crafted (Wafting)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3
 profileset."Gholak (Wafting) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32
 
-profileset."Timestrike (Sophic) / Thorncaller (Sophic)"+=main_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=sophic_devotion_3
+profileset."Timestrike (Sophic) / Thorncaller (Sophic)"+=main_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=sophic_devotion_3
 profileset."Timestrike (Sophic) / Thorncaller (Sophic)"+=off_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=sophic_devotion_3
 
-profileset."Timestrike (Sophic) / Thorncaller (Wafting)"+=main_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=sophic_devotion_3
+profileset."Timestrike (Sophic) / Thorncaller (Wafting)"+=main_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=sophic_devotion_3
 profileset."Timestrike (Sophic) / Thorncaller (Wafting)"+=off_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=wafting_devotion_3
 
-profileset."Timestrike (Sophic) / Gholak (Sophic)"+=main_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=sophic_devotion_3
+profileset."Timestrike (Sophic) / Gholak (Sophic)"+=main_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=sophic_devotion_3
 profileset."Timestrike (Sophic) / Gholak (Sophic)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=sophic_devotion_3
 
-profileset."Timestrike (Sophic) / Gholak (Wafting)"+=main_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=sophic_devotion_3
+profileset."Timestrike (Sophic) / Gholak (Wafting)"+=main_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=sophic_devotion_3
 profileset."Timestrike (Sophic) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3
 
-profileset."Timestrike (Sophic) / Timestrike (Sophic)"+=main_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=sophic_devotion_3
-profileset."Timestrike (Sophic) / Timestrike (Sophic)"+=off_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=sophic_devotion_3
+profileset."Timestrike (Sophic) / Timestrike (Sophic)"+=main_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=sophic_devotion_3
+profileset."Timestrike (Sophic) / Timestrike (Sophic)"+=off_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=sophic_devotion_3
 
-profileset."Timestrike (Sophic) / Timestrike (Wafting)"+=main_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=sophic_devotion_3
-profileset."Timestrike (Sophic) / Timestrike (Wafting)"+=off_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=wafting_devotion_3
+profileset."Timestrike (Sophic) / Timestrike (Wafting)"+=main_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=sophic_devotion_3
+profileset."Timestrike (Sophic) / Timestrike (Wafting)"+=off_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=wafting_devotion_3
 
-profileset."Timestrike (Sophic) / Crafted (Sophic)"+=main_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=sophic_devotion_3
+profileset."Timestrike (Sophic) / Crafted (Sophic)"+=main_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=sophic_devotion_3
 profileset."Timestrike (Sophic) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32
 
-profileset."Timestrike (Sophic) / Crafted (Wafting)"+=main_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=sophic_devotion_3
+profileset."Timestrike (Sophic) / Crafted (Wafting)"+=main_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=sophic_devotion_3
 profileset."Timestrike (Sophic) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32
 
-profileset."Timestrike (Wafting) / Thorncaller (Sophic)"+=main_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=wafting_devotion_3
+profileset."Timestrike (Wafting) / Thorncaller (Sophic)"+=main_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=wafting_devotion_3
 profileset."Timestrike (Wafting) / Thorncaller (Sophic)"+=off_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=sophic_devotion_3
 
-profileset."Timestrike (Wafting) / Thorncaller (Wafting)"+=main_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=wafting_devotion_3
+profileset."Timestrike (Wafting) / Thorncaller (Wafting)"+=main_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=wafting_devotion_3
 profileset."Timestrike (Wafting) / Thorncaller (Wafting)"+=off_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=wafting_devotion_3
 
-profileset."Timestrike (Wafting) / Gholak (Sophic)"+=main_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=wafting_devotion_3
+profileset."Timestrike (Wafting) / Gholak (Sophic)"+=main_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=wafting_devotion_3
 profileset."Timestrike (Wafting) / Gholak (Sophic)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=sophic_devotion_3
 
-profileset."Timestrike (Wafting) / Gholak (Wafting)"+=main_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=wafting_devotion_3
+profileset."Timestrike (Wafting) / Gholak (Wafting)"+=main_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=wafting_devotion_3
 profileset."Timestrike (Wafting) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3
 
-profileset."Timestrike (Wafting) / Timestrike (Sophic)"+=main_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=wafting_devotion_3
-profileset."Timestrike (Wafting) / Timestrike (Sophic)"+=off_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=sophic_devotion_3
+profileset."Timestrike (Wafting) / Timestrike (Sophic)"+=main_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=wafting_devotion_3
+profileset."Timestrike (Wafting) / Timestrike (Sophic)"+=off_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=sophic_devotion_3
 
-profileset."Timestrike (Wafting) / Timestrike (Wafting)"+=main_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=wafting_devotion_3
-profileset."Timestrike (Wafting) / Timestrike (Wafting)"+=off_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=wafting_devotion_3
+profileset."Timestrike (Wafting) / Timestrike (Wafting)"+=main_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=wafting_devotion_3
+profileset."Timestrike (Wafting) / Timestrike (Wafting)"+=off_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=wafting_devotion_3
 
-profileset."Timestrike (Wafting) / Crafted (Sophic)"+=main_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=wafting_devotion_3
+profileset."Timestrike (Wafting) / Crafted (Sophic)"+=main_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=wafting_devotion_3
 profileset."Timestrike (Wafting) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32
 
-profileset."Timestrike (Wafting) / Crafted (Wafting)"+=main_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=wafting_devotion_3
+profileset."Timestrike (Wafting) / Crafted (Wafting)"+=main_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=wafting_devotion_3
 profileset."Timestrike (Wafting) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32
 
 profileset."Crafted (Sophic) / Thorncaller (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32
@@ -180,10 +180,10 @@ profileset."Crafted (Sophic) / Gholak (Wafting)"+=main_hand=primal_molten_wargla
 profileset."Crafted (Sophic) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3
 
 profileset."Crafted (Sophic) / Timestrike (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32
-profileset."Crafted (Sophic) / Timestrike (Sophic)"+=off_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=sophic_devotion_3
+profileset."Crafted (Sophic) / Timestrike (Sophic)"+=off_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=sophic_devotion_3
 
 profileset."Crafted (Sophic) / Timestrike (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32
-profileset."Crafted (Sophic) / Timestrike (Wafting)"+=off_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=wafting_devotion_3
+profileset."Crafted (Sophic) / Timestrike (Wafting)"+=off_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=wafting_devotion_3
 
 profileset."Crafted (Sophic) / Crafted (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32
 profileset."Crafted (Sophic) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32
@@ -204,10 +204,10 @@ profileset."Crafted (Wafting) / Gholak (Wafting)"+=main_hand=primal_molten_wargl
 profileset."Crafted (Wafting) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3
 
 profileset."Crafted (Wafting) / Timestrike (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32
-profileset."Crafted (Wafting) / Timestrike (Sophic)"+=off_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=sophic_devotion_3
+profileset."Crafted (Wafting) / Timestrike (Sophic)"+=off_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=sophic_devotion_3
 
 profileset."Crafted (Wafting) / Timestrike (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32
-profileset."Crafted (Wafting) / Timestrike (Wafting)"+=off_hand=double_time,id=207991,bonus_id=6536/1540/6646,enchant=wafting_devotion_3
+profileset."Crafted (Wafting) / Timestrike (Wafting)"+=off_hand=double_time,id=207991,bonus_id=6646/6536/1611,enchant=wafting_devotion_3
 
 profileset."Crafted (Wafting) / Crafted (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32
 profileset."Crafted (Wafting) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32
