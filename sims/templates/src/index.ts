@@ -23,6 +23,10 @@ import T31DemonHunterVengeanceRingsCouncilRaid from "./T31_Demon_Hunter_Vengeanc
 import T31DemonHunterVengeanceRingsMythicPlusLargePack from "./T31_Demon_Hunter_Vengeance_rings_MythicPlusLargePack.simc";
 import T31DemonHunterVengeanceRingsMythicPlusSmallPack from "./T31_Demon_Hunter_Vengeance_rings_MythicPlusSmallPack.simc";
 import T31DemonHunterVengeanceRingsSingleTargetRaid from "./T31_Demon_Hunter_Vengeance_rings_SingleTargetRaid.simc";
+import T31DemonHunterVengeanceTalentsCouncilRaid from "./T31_Demon_Hunter_Vengeance_talents_CouncilRaid.simc";
+import T31DemonHunterVengeanceTalentsMythicPlusLargePack from "./T31_Demon_Hunter_Vengeance_talents_MythicPlusLargePack.simc";
+import T31DemonHunterVengeanceTalentsMythicPlusSmallPack from "./T31_Demon_Hunter_Vengeance_talents_MythicPlusSmallPack.simc";
+import T31DemonHunterVengeanceTalentsSingleTargetRaid from "./T31_Demon_Hunter_Vengeance_talents_SingleTargetRaid.simc";
 import T31DemonHunterVengeanceTrinketsCouncilRaid from "./T31_Demon_Hunter_Vengeance_trinkets_CouncilRaid.simc";
 import T31DemonHunterVengeanceTrinketsMythicPlusLargePack from "./T31_Demon_Hunter_Vengeance_trinkets_MythicPlusLargePack.simc";
 import T31DemonHunterVengeanceTrinketsMythicPlusSmallPack from "./T31_Demon_Hunter_Vengeance_trinkets_MythicPlusSmallPack.simc";
@@ -65,6 +69,14 @@ export const T31_Demon_Hunter_Vengeance_rings_MythicPlusSmallPack: string =
   T31DemonHunterVengeanceRingsMythicPlusSmallPack;
 export const T31_Demon_Hunter_Vengeance_rings_SingleTargetRaid: string =
   T31DemonHunterVengeanceRingsSingleTargetRaid;
+export const T31_Demon_Hunter_Vengeance_talents_CouncilRaid: string =
+  T31DemonHunterVengeanceTalentsCouncilRaid;
+export const T31_Demon_Hunter_Vengeance_talents_MythicPlusLargePack: string =
+  T31DemonHunterVengeanceTalentsMythicPlusLargePack;
+export const T31_Demon_Hunter_Vengeance_talents_MythicPlusSmallPack: string =
+  T31DemonHunterVengeanceTalentsMythicPlusSmallPack;
+export const T31_Demon_Hunter_Vengeance_talents_SingleTargetRaid: string =
+  T31DemonHunterVengeanceTalentsSingleTargetRaid;
 export const T31_Demon_Hunter_Vengeance_trinkets_CouncilRaid: string =
   T31DemonHunterVengeanceTrinketsCouncilRaid;
 export const T31_Demon_Hunter_Vengeance_trinkets_MythicPlusLargePack: string =
@@ -100,6 +112,10 @@ export const templates = [
   "T31_Demon_Hunter_Vengeance_rings_MythicPlusLargePack",
   "T31_Demon_Hunter_Vengeance_rings_MythicPlusSmallPack",
   "T31_Demon_Hunter_Vengeance_rings_SingleTargetRaid",
+  "T31_Demon_Hunter_Vengeance_talents_CouncilRaid",
+  "T31_Demon_Hunter_Vengeance_talents_MythicPlusLargePack",
+  "T31_Demon_Hunter_Vengeance_talents_MythicPlusSmallPack",
+  "T31_Demon_Hunter_Vengeance_talents_SingleTargetRaid",
   "T31_Demon_Hunter_Vengeance_trinkets_CouncilRaid",
   "T31_Demon_Hunter_Vengeance_trinkets_MythicPlusLargePack",
   "T31_Demon_Hunter_Vengeance_trinkets_MythicPlusSmallPack",
@@ -131,6 +147,10 @@ const templateMapping: Record<Template, string> = {
   T31_Demon_Hunter_Vengeance_rings_MythicPlusLargePack,
   T31_Demon_Hunter_Vengeance_rings_MythicPlusSmallPack,
   T31_Demon_Hunter_Vengeance_rings_SingleTargetRaid,
+  T31_Demon_Hunter_Vengeance_talents_CouncilRaid,
+  T31_Demon_Hunter_Vengeance_talents_MythicPlusLargePack,
+  T31_Demon_Hunter_Vengeance_talents_MythicPlusSmallPack,
+  T31_Demon_Hunter_Vengeance_talents_SingleTargetRaid,
   T31_Demon_Hunter_Vengeance_trinkets_CouncilRaid,
   T31_Demon_Hunter_Vengeance_trinkets_MythicPlusLargePack,
   T31_Demon_Hunter_Vengeance_trinkets_MythicPlusSmallPack,

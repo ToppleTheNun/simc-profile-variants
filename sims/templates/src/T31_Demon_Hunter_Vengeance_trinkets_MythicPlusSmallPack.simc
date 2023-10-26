@@ -81,7 +81,7 @@ profileset."Bandolier / Beacon"+=trinket1=bandolier_of_twisted_blades,id=207165,
 profileset."Bandolier / Beacon"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
 
 profileset."Bandolier / Mark"+=trinket1=bandolier_of_twisted_blades,id=207165,bonus_id=7187/1520
-profileset."Bandolier / Mark"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Bandolier / Mark"+=trinket2=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 
 profileset."Bandolier / Mirror"+=trinket1=bandolier_of_twisted_blades,id=207165,bonus_id=7187/1520
 profileset."Bandolier / Mirror"+=trinket2=mirror_of_fractured_tomorrows,id=207581,bonus_id=6536/1540/6646
@@ -138,7 +138,7 @@ profileset."Ashes / Beacon"+=trinket1=ashes_of_the_embersoul,id=207167,bonus_id=
 profileset."Ashes / Beacon"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
 
 profileset."Ashes / Mark"+=trinket1=ashes_of_the_embersoul,id=207167,bonus_id=7187/1520
-profileset."Ashes / Mark"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Ashes / Mark"+=trinket2=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 
 profileset."Ashes / Mirror"+=trinket1=ashes_of_the_embersoul,id=207167,bonus_id=7187/1520
 profileset."Ashes / Mirror"+=trinket2=mirror_of_fractured_tomorrows,id=207581,bonus_id=6536/1540/6646
@@ -192,7 +192,7 @@ profileset."Badge / Beacon"+=trinket1=pips_emerald_friendship_badge,id=207168,bo
 profileset."Badge / Beacon"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
 
 profileset."Badge / Mark"+=trinket1=pips_emerald_friendship_badge,id=207168,bonus_id=7187/1520
-profileset."Badge / Mark"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Badge / Mark"+=trinket2=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 
 profileset."Badge / Mirror"+=trinket1=pips_emerald_friendship_badge,id=207168,bonus_id=7187/1520
 profileset."Badge / Mirror"+=trinket2=mirror_of_fractured_tomorrows,id=207581,bonus_id=6536/1540/6646
@@ -243,7 +243,7 @@ profileset."Gift / Beacon"+=trinket1=gift_of_ursine_vengeance,id=207173,bonus_id
 profileset."Gift / Beacon"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
 
 profileset."Gift / Mark"+=trinket1=gift_of_ursine_vengeance,id=207173,bonus_id=7187/1520
-profileset."Gift / Mark"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Gift / Mark"+=trinket2=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 
 profileset."Gift / Mirror"+=trinket1=gift_of_ursine_vengeance,id=207173,bonus_id=7187/1520
 profileset."Gift / Mirror"+=trinket2=mirror_of_fractured_tomorrows,id=207581,bonus_id=6536/1540/6646
@@ -291,7 +291,7 @@ profileset."Rageheart / Beacon"+=trinket1=fyrakks_tainted_rageheart,id=207174,bo
 profileset."Rageheart / Beacon"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
 
 profileset."Rageheart / Mark"+=trinket1=fyrakks_tainted_rageheart,id=207174,bonus_id=7187/1520
-profileset."Rageheart / Mark"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Rageheart / Mark"+=trinket2=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 
 profileset."Rageheart / Mirror"+=trinket1=fyrakks_tainted_rageheart,id=207174,bonus_id=7187/1520
 profileset."Rageheart / Mirror"+=trinket2=mirror_of_fractured_tomorrows,id=207581,bonus_id=6536/1540/6646
@@ -336,7 +336,7 @@ profileset."Signet / Beacon"+=trinket1=cataclysmic_signet_brand,id=207166,bonus_
 profileset."Signet / Beacon"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
 
 profileset."Signet / Mark"+=trinket1=cataclysmic_signet_brand,id=207166,bonus_id=7187/1520
-profileset."Signet / Mark"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Signet / Mark"+=trinket2=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 
 profileset."Signet / Mirror"+=trinket1=cataclysmic_signet_brand,id=207166,bonus_id=7187/1520
 profileset."Signet / Mirror"+=trinket2=mirror_of_fractured_tomorrows,id=207581,bonus_id=6536/1540/6646
@@ -378,7 +378,7 @@ profileset."Coiled / Beacon"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=71
 profileset."Coiled / Beacon"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
 
 profileset."Coiled / Mark"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
-profileset."Coiled / Mark"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Coiled / Mark"+=trinket2=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 
 profileset."Coiled / Mirror"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
 profileset."Coiled / Mirror"+=trinket2=mirror_of_fractured_tomorrows,id=207581,bonus_id=6536/1540/6646
@@ -417,7 +417,7 @@ profileset."Augury / Beacon"+=trinket1=augury_of_the_primal_flame,id=208614,bonu
 profileset."Augury / Beacon"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
 
 profileset."Augury / Mark"+=trinket1=augury_of_the_primal_flame,id=208614,bonus_id=7187/1527
-profileset."Augury / Mark"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Augury / Mark"+=trinket2=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 
 profileset."Augury / Mirror"+=trinket1=augury_of_the_primal_flame,id=208614,bonus_id=7187/1527
 profileset."Augury / Mirror"+=trinket2=mirror_of_fractured_tomorrows,id=207581,bonus_id=6536/1540/6646
@@ -453,7 +453,7 @@ profileset."Boon / Beacon"+=trinket1=stormeaters_boon,id=194302,bonus_id=6652/79
 profileset."Boon / Beacon"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
 
 profileset."Boon / Mark"+=trinket1=stormeaters_boon,id=194302,bonus_id=6652/7981/1498/8767
-profileset."Boon / Mark"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Boon / Mark"+=trinket2=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 
 profileset."Boon / Mirror"+=trinket1=stormeaters_boon,id=194302,bonus_id=6652/7981/1498/8767
 profileset."Boon / Mirror"+=trinket2=mirror_of_fractured_tomorrows,id=207581,bonus_id=6536/1540/6646
@@ -486,7 +486,7 @@ profileset."Grieftorch / Beacon"+=trinket1=manic_grieftorch,id=194308,bonus_id=7
 profileset."Grieftorch / Beacon"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
 
 profileset."Grieftorch / Mark"+=trinket1=manic_grieftorch,id=194308,bonus_id=7981/6652/1498/8767
-profileset."Grieftorch / Mark"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Grieftorch / Mark"+=trinket2=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 
 profileset."Grieftorch / Mirror"+=trinket1=manic_grieftorch,id=194308,bonus_id=7981/6652/1498/8767
 profileset."Grieftorch / Mirror"+=trinket2=mirror_of_fractured_tomorrows,id=207581,bonus_id=6536/1540/6646
@@ -516,7 +516,7 @@ profileset."Call / Beacon"+=trinket1=neltharions_call_to_chaos,id=204201,bonus_i
 profileset."Call / Beacon"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
 
 profileset."Call / Mark"+=trinket1=neltharions_call_to_chaos,id=204201,bonus_id=4800/4786/1498
-profileset."Call / Mark"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Call / Mark"+=trinket2=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 
 profileset."Call / Mirror"+=trinket1=neltharions_call_to_chaos,id=204201,bonus_id=4800/4786/1498
 profileset."Call / Mirror"+=trinket2=mirror_of_fractured_tomorrows,id=207581,bonus_id=6536/1540/6646
@@ -542,6 +542,9 @@ profileset."Call / Counterweight"+=trinket2=spiked_counterweight,id=136715,ileve
 profileset."Call / Branch"+=trinket1=neltharions_call_to_chaos,id=204201,bonus_id=4800/4786/1498
 profileset."Call / Branch"+=trinket2=witherbarks_branch,id=109999,ilevel=489
 
+profileset."Beacon / Mark"+=trinket1=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Beacon / Mark"+=trinket2=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
+
 profileset."Beacon / Mirror"+=trinket1=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
 profileset."Beacon / Mirror"+=trinket2=mirror_of_fractured_tomorrows,id=207581,bonus_id=6536/1540/6646
 
@@ -566,28 +569,28 @@ profileset."Beacon / Counterweight"+=trinket2=spiked_counterweight,id=136715,ile
 profileset."Beacon / Branch"+=trinket1=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
 profileset."Beacon / Branch"+=trinket2=witherbarks_branch,id=109999,ilevel=489
 
-profileset."Mark / Mirror"+=trinket1=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Mark / Mirror"+=trinket1=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 profileset."Mark / Mirror"+=trinket2=mirror_of_fractured_tomorrows,id=207581,bonus_id=6536/1540/6646
 
-profileset."Mark / Stonescales"+=trinket1=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Mark / Stonescales"+=trinket1=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 profileset."Mark / Stonescales"+=trinket2=prophetic_stonescales,id=207528,bonus_id=6536/1540/6646
 
-profileset."Mark / Sandglass"+=trinket1=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Mark / Sandglass"+=trinket1=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 profileset."Mark / Sandglass"+=trinket2=accelerating_sandglass,id=207566,bonus_id=6536/1540/6646
 
-profileset."Mark / Box"+=trinket1=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Mark / Box"+=trinket1=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 profileset."Mark / Box"+=trinket2=lady_waycrests_music_box,id=159631,ilevel=489
 
-profileset."Mark / My'das"+=trinket1=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Mark / My'das"+=trinket1=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 profileset."Mark / My'das"+=trinket2=mydas_talisman,id=158319,ilevel=489
 
-profileset."Mark / Shell"+=trinket1=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Mark / Shell"+=trinket1=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 profileset."Mark / Shell"+=trinket2=nightmare_egg_shell,id=137312,ilevel=489
 
-profileset."Mark / Counterweight"+=trinket1=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Mark / Counterweight"+=trinket1=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 profileset."Mark / Counterweight"+=trinket2=spiked_counterweight,id=136715,ilevel=489
 
-profileset."Mark / Branch"+=trinket1=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Mark / Branch"+=trinket1=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 profileset."Mark / Branch"+=trinket2=witherbarks_branch,id=109999,ilevel=489
 
 profileset."Mirror / Stonescales"+=trinket1=mirror_of_fractured_tomorrows,id=207581,bonus_id=6536/1540/6646

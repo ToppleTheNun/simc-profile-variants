@@ -76,8 +76,8 @@ export const gear: Gear[] = [
   {
     name: 'Mark',
     slot: 'trinket1',
-    options: 'beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498',
-    uniqueId: 203963,
+    options: 'mark_of_dargrul,id=137357,bonus_id=9405/9402/3310',
+    uniqueId: 137357,
   },
   {
     name: 'Mirror',
