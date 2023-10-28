@@ -36,7 +36,7 @@
     "@topplethenun/simc-profile-variants-sims-generators": "workspace:*",
     "@topplethenun/simc-profile-variants-sims-profiles": "workspace:*",
     "@topplethenun/simc-profile-variants-sims-utils": "workspace:*",
-    "fast-cartesian": "8.0.0",
+    "fast-cartesian": "9.0.0",
     "immer": "10.0.3"
   },
   "devDependencies": {
