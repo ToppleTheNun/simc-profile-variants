@@ -50,7 +50,7 @@ for (const matrixItem of matrix) {
     encounterType,
     profile,
   });
-  const templateContents = [profile.includes('T31') ? 'ptr=1' : null, generated]
+  const templateContents = [profile.includes('T32') ? 'ptr=1' : null, generated]
     .filter(isPresent)
     .join('\n\n');
 

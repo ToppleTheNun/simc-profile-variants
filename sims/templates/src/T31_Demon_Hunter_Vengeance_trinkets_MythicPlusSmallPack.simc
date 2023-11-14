@@ -1,5 +1,3 @@
-ptr=1
-
 iterations=10000
 desired_targets=6
 max_time=40
@@ -30,22 +28,22 @@ position=front
 talents=BUkAAAAAAAAAAAAAAAAAAAAAAAAiIJJCJIJBhIlkQiWiEJSIJpkk0iESQAAAAAJJB
 
 
-head=flaring_cowl,id=193494,bonus_id=9500/9498/9405/8960/6935,gem_id=192919
-neck=torc_of_passed_time,id=201759,bonus_id=9500/9498/9405/8782,gem_id=192919/192919/192919,crafted_stats=36/32
-shoulder=screaming_torchfiends_horned_memento,id=207261,bonus_id=7187/1520
-back=screaming_torchfiends_shawl,id=207258,bonus_id=7187/1520
+head=screaming_torchfiends_burning_scowl,id=207263,bonus_id=7187/6935/1520,gem_id=192919,enchant=incandescent_essence
+neck=elemental_lariat,id=193001,bonus_id=9500/9498/9405/8782/8960,gem_id=192919/192919/192919,crafted_stats=36/32
+shoulders=screaming_torchfiends_horned_memento,id=207261,bonus_id=7187/1520
+back=cloak_of_fading_echoes,id=134405,bonus_id=9499/7981/5868/657
 chest=screaming_torchfiends_binding,id=207266,bonus_id=7187/1520,enchant_id=6625
-wrist=verdant_sanctuary_bands,id=210206,bonus_id=7187/1520,gem_id=192919
+wrists=verdant_sanctuary_bands,id=210206,bonus_id=7187/6935/1520,gem_id=192919
 hands=screaming_torchfiends_grasp,id=207264,bonus_id=7187/1520
-waist=screaming_torchfiends_clasp,id=207260,bonus_id=7187/1520,gem_id=192985
-legs=screaming_torchfiends_blazewraps,id=207262,bonus_id=7187/1520,enchant=frosted_armor_kit_3
+waist=belt_of_the_eternal_struggle,id=207874,bonus_id=9576/6935/1582,gem_id=192985
+legs=galakronds_voracious_hide,id=207820,bonus_id=9576/1579,enchant=frosted_armor_kit_3
 feet=slimy_expulsion_boots,id=193451,bonus_id=9500/9498/9405/8960
 finger1=band_of_burning_thorns,id=207159,bonus_id=7187/6935/1520,gem_id=192922,enchant=devotion_of_critical_strike_3
 finger2=signet_of_the_last_elder,id=207162,bonus_id=7187/6935/1520,gem_id=192922,enchant=devotion_of_critical_strike_3
 trinket1=augury_of_the_primal_flame,id=208614,bonus_id=7187/1527
 trinket2=cataclysmic_signet_brand,id=207166,bonus_id=7187/1520
 main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=sophic_devotion_3
-off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3
+off_hand=double_time,id=207991,bonus_id=9576/1611,enchant=wafting_devotion_3
 
 profileset."Bandolier / Ashes"+=trinket1=bandolier_of_twisted_blades,id=207165,bonus_id=7187/1520
 profileset."Bandolier / Ashes"+=trinket2=ashes_of_the_embersoul,id=207167,bonus_id=7187/1520
@@ -62,8 +60,8 @@ profileset."Bandolier / Rageheart"+=trinket2=fyrakks_tainted_rageheart,id=207174
 profileset."Bandolier / Signet"+=trinket1=bandolier_of_twisted_blades,id=207165,bonus_id=7187/1520
 profileset."Bandolier / Signet"+=trinket2=cataclysmic_signet_brand,id=207166,bonus_id=7187/1520
 
-profileset."Bandolier / Coiled"+=trinket1=bandolier_of_twisted_blades,id=207165,bonus_id=7187/1520
-profileset."Bandolier / Coiled"+=trinket2=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Bandolier / Idol"+=trinket1=bandolier_of_twisted_blades,id=207165,bonus_id=7187/1520
+profileset."Bandolier / Idol"+=trinket2=coiled_serpent_idol,id=207175,bonus_id=7187/1520
 
 profileset."Bandolier / Augury"+=trinket1=bandolier_of_twisted_blades,id=207165,bonus_id=7187/1520
 profileset."Bandolier / Augury"+=trinket2=augury_of_the_primal_flame,id=208614,bonus_id=7187/1527
@@ -119,8 +117,8 @@ profileset."Ashes / Rageheart"+=trinket2=fyrakks_tainted_rageheart,id=207174,bon
 profileset."Ashes / Signet"+=trinket1=ashes_of_the_embersoul,id=207167,bonus_id=7187/1520
 profileset."Ashes / Signet"+=trinket2=cataclysmic_signet_brand,id=207166,bonus_id=7187/1520
 
-profileset."Ashes / Coiled"+=trinket1=ashes_of_the_embersoul,id=207167,bonus_id=7187/1520
-profileset."Ashes / Coiled"+=trinket2=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Ashes / Idol"+=trinket1=ashes_of_the_embersoul,id=207167,bonus_id=7187/1520
+profileset."Ashes / Idol"+=trinket2=coiled_serpent_idol,id=207175,bonus_id=7187/1520
 
 profileset."Ashes / Augury"+=trinket1=ashes_of_the_embersoul,id=207167,bonus_id=7187/1520
 profileset."Ashes / Augury"+=trinket2=augury_of_the_primal_flame,id=208614,bonus_id=7187/1527
@@ -173,8 +171,8 @@ profileset."Badge / Rageheart"+=trinket2=fyrakks_tainted_rageheart,id=207174,bon
 profileset."Badge / Signet"+=trinket1=pips_emerald_friendship_badge,id=207168,bonus_id=7187/1520
 profileset."Badge / Signet"+=trinket2=cataclysmic_signet_brand,id=207166,bonus_id=7187/1520
 
-profileset."Badge / Coiled"+=trinket1=pips_emerald_friendship_badge,id=207168,bonus_id=7187/1520
-profileset."Badge / Coiled"+=trinket2=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Badge / Idol"+=trinket1=pips_emerald_friendship_badge,id=207168,bonus_id=7187/1520
+profileset."Badge / Idol"+=trinket2=coiled_serpent_idol,id=207175,bonus_id=7187/1520
 
 profileset."Badge / Augury"+=trinket1=pips_emerald_friendship_badge,id=207168,bonus_id=7187/1520
 profileset."Badge / Augury"+=trinket2=augury_of_the_primal_flame,id=208614,bonus_id=7187/1527
@@ -224,8 +222,8 @@ profileset."Gift / Rageheart"+=trinket2=fyrakks_tainted_rageheart,id=207174,bonu
 profileset."Gift / Signet"+=trinket1=gift_of_ursine_vengeance,id=207173,bonus_id=7187/1520
 profileset."Gift / Signet"+=trinket2=cataclysmic_signet_brand,id=207166,bonus_id=7187/1520
 
-profileset."Gift / Coiled"+=trinket1=gift_of_ursine_vengeance,id=207173,bonus_id=7187/1520
-profileset."Gift / Coiled"+=trinket2=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Gift / Idol"+=trinket1=gift_of_ursine_vengeance,id=207173,bonus_id=7187/1520
+profileset."Gift / Idol"+=trinket2=coiled_serpent_idol,id=207175,bonus_id=7187/1520
 
 profileset."Gift / Augury"+=trinket1=gift_of_ursine_vengeance,id=207173,bonus_id=7187/1520
 profileset."Gift / Augury"+=trinket2=augury_of_the_primal_flame,id=208614,bonus_id=7187/1527
@@ -272,8 +270,8 @@ profileset."Gift / Branch"+=trinket2=witherbarks_branch,id=109999,ilevel=489
 profileset."Rageheart / Signet"+=trinket1=fyrakks_tainted_rageheart,id=207174,bonus_id=7187/1520
 profileset."Rageheart / Signet"+=trinket2=cataclysmic_signet_brand,id=207166,bonus_id=7187/1520
 
-profileset."Rageheart / Coiled"+=trinket1=fyrakks_tainted_rageheart,id=207174,bonus_id=7187/1520
-profileset."Rageheart / Coiled"+=trinket2=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Rageheart / Idol"+=trinket1=fyrakks_tainted_rageheart,id=207174,bonus_id=7187/1520
+profileset."Rageheart / Idol"+=trinket2=coiled_serpent_idol,id=207175,bonus_id=7187/1520
 
 profileset."Rageheart / Augury"+=trinket1=fyrakks_tainted_rageheart,id=207174,bonus_id=7187/1520
 profileset."Rageheart / Augury"+=trinket2=augury_of_the_primal_flame,id=208614,bonus_id=7187/1527
@@ -317,8 +315,8 @@ profileset."Rageheart / Counterweight"+=trinket2=spiked_counterweight,id=136715,
 profileset."Rageheart / Branch"+=trinket1=fyrakks_tainted_rageheart,id=207174,bonus_id=7187/1520
 profileset."Rageheart / Branch"+=trinket2=witherbarks_branch,id=109999,ilevel=489
 
-profileset."Signet / Coiled"+=trinket1=cataclysmic_signet_brand,id=207166,bonus_id=7187/1520
-profileset."Signet / Coiled"+=trinket2=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Signet / Idol"+=trinket1=cataclysmic_signet_brand,id=207166,bonus_id=7187/1520
+profileset."Signet / Idol"+=trinket2=coiled_serpent_idol,id=207175,bonus_id=7187/1520
 
 profileset."Signet / Augury"+=trinket1=cataclysmic_signet_brand,id=207166,bonus_id=7187/1520
 profileset."Signet / Augury"+=trinket2=augury_of_the_primal_flame,id=208614,bonus_id=7187/1527
@@ -362,47 +360,47 @@ profileset."Signet / Counterweight"+=trinket2=spiked_counterweight,id=136715,ile
 profileset."Signet / Branch"+=trinket1=cataclysmic_signet_brand,id=207166,bonus_id=7187/1520
 profileset."Signet / Branch"+=trinket2=witherbarks_branch,id=109999,ilevel=489
 
-profileset."Coiled / Augury"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
-profileset."Coiled / Augury"+=trinket2=augury_of_the_primal_flame,id=208614,bonus_id=7187/1527
+profileset."Idol / Augury"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Idol / Augury"+=trinket2=augury_of_the_primal_flame,id=208614,bonus_id=7187/1527
 
-profileset."Coiled / Boon"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
-profileset."Coiled / Boon"+=trinket2=stormeaters_boon,id=194302,bonus_id=6652/7981/1498/8767
+profileset."Idol / Boon"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Idol / Boon"+=trinket2=stormeaters_boon,id=194302,bonus_id=6652/7981/1498/8767
 
-profileset."Coiled / Grieftorch"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
-profileset."Coiled / Grieftorch"+=trinket2=manic_grieftorch,id=194308,bonus_id=7981/6652/1498/8767
+profileset."Idol / Grieftorch"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Idol / Grieftorch"+=trinket2=manic_grieftorch,id=194308,bonus_id=7981/6652/1498/8767
 
-profileset."Coiled / Call"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
-profileset."Coiled / Call"+=trinket2=neltharions_call_to_chaos,id=204201,bonus_id=4800/4786/1498
+profileset."Idol / Call"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Idol / Call"+=trinket2=neltharions_call_to_chaos,id=204201,bonus_id=4800/4786/1498
 
-profileset."Coiled / Beacon"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
-profileset."Coiled / Beacon"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
+profileset."Idol / Beacon"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Idol / Beacon"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498
 
-profileset."Coiled / Mark"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
-profileset."Coiled / Mark"+=trinket2=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
+profileset."Idol / Mark"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Idol / Mark"+=trinket2=mark_of_dargrul,id=137357,bonus_id=9405/9402/3310
 
-profileset."Coiled / Mirror"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
-profileset."Coiled / Mirror"+=trinket2=mirror_of_fractured_tomorrows,id=207581,bonus_id=6536/1540/6646
+profileset."Idol / Mirror"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Idol / Mirror"+=trinket2=mirror_of_fractured_tomorrows,id=207581,bonus_id=6536/1540/6646
 
-profileset."Coiled / Stonescales"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
-profileset."Coiled / Stonescales"+=trinket2=prophetic_stonescales,id=207528,bonus_id=6536/1540/6646
+profileset."Idol / Stonescales"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Idol / Stonescales"+=trinket2=prophetic_stonescales,id=207528,bonus_id=6536/1540/6646
 
-profileset."Coiled / Sandglass"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
-profileset."Coiled / Sandglass"+=trinket2=accelerating_sandglass,id=207566,bonus_id=6536/1540/6646
+profileset."Idol / Sandglass"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Idol / Sandglass"+=trinket2=accelerating_sandglass,id=207566,bonus_id=6536/1540/6646
 
-profileset."Coiled / Box"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
-profileset."Coiled / Box"+=trinket2=lady_waycrests_music_box,id=159631,ilevel=489
+profileset."Idol / Box"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Idol / Box"+=trinket2=lady_waycrests_music_box,id=159631,ilevel=489
 
-profileset."Coiled / My'das"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
-profileset."Coiled / My'das"+=trinket2=mydas_talisman,id=158319,ilevel=489
+profileset."Idol / My'das"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Idol / My'das"+=trinket2=mydas_talisman,id=158319,ilevel=489
 
-profileset."Coiled / Shell"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
-profileset."Coiled / Shell"+=trinket2=nightmare_egg_shell,id=137312,ilevel=489
+profileset."Idol / Shell"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Idol / Shell"+=trinket2=nightmare_egg_shell,id=137312,ilevel=489
 
-profileset."Coiled / Counterweight"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
-profileset."Coiled / Counterweight"+=trinket2=spiked_counterweight,id=136715,ilevel=489
+profileset."Idol / Counterweight"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Idol / Counterweight"+=trinket2=spiked_counterweight,id=136715,ilevel=489
 
-profileset."Coiled / Branch"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
-profileset."Coiled / Branch"+=trinket2=witherbarks_branch,id=109999,ilevel=489
+profileset."Idol / Branch"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520
+profileset."Idol / Branch"+=trinket2=witherbarks_branch,id=109999,ilevel=489
 
 profileset."Augury / Boon"+=trinket1=augury_of_the_primal_flame,id=208614,bonus_id=7187/1527
 profileset."Augury / Boon"+=trinket2=stormeaters_boon,id=194302,bonus_id=6652/7981/1498/8767

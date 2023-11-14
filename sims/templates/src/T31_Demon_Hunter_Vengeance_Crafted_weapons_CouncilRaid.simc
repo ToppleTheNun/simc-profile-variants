@@ -1,5 +1,3 @@
-ptr=1
-
 iterations=10000
 desired_targets=4
 max_time=300

@@ -38,7 +38,7 @@ export const gear: Gear[] = [
     uniqueId: 207166,
   },
   {
-    name: 'Coiled',
+    name: 'Idol',
     slot: 'trinket1',
     options: 'coiled_serpent_idol,id=207175,bonus_id=7187/1520',
     uniqueId: 207175,
