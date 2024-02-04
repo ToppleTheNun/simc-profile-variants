@@ -45,7 +45,7 @@
     "@topplethenun/simc-profile-variants-types": "workspace:*",
     "@types/node": "20.8.6",
     "fast-cartesian": "8.0.0",
-    "prettier": "3.0.3",
+    "prettier": "3.2.5",
     "rimraf": "5.0.5",
     "ts-dedent": "2.2.0",
     "tsup": "7.2.0",
