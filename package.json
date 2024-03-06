@@ -21,7 +21,7 @@
   "prettier": "@vercel/style-guide/prettier",
   "devDependencies": {
     "@vercel/style-guide": "5.0.1",
-    "beachball": "2.37.0",
+    "beachball": "2.41.0",
     "eslint": "8.52.0",
     "execa": "8.0.1",
     "prettier": "3.0.3",
