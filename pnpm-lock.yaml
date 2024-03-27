@@ -85,13 +85,13 @@ importers:
 
   packages/config:
     dependencies:
-      "@topplethenun/simc-profile-variants-sims-generators":
+      "@topplethenun/simc-profile-variants-generators":
         specifier: workspace:*
         version: link:../generators
-      "@topplethenun/simc-profile-variants-sims-profiles":
+      "@topplethenun/simc-profile-variants-profiles":
         specifier: workspace:*
         version: link:../profiles
-      "@topplethenun/simc-profile-variants-sims-utils":
+      "@topplethenun/simc-profile-variants-utils":
         specifier: workspace:*
         version: link:../utils
       fast-cartesian:
@@ -128,10 +128,10 @@ importers:
 
   packages/generators:
     dependencies:
-      "@topplethenun/simc-profile-variants-sims-profiles":
+      "@topplethenun/simc-profile-variants-profiles":
         specifier: workspace:*
         version: link:../profiles
-      "@topplethenun/simc-profile-variants-sims-utils":
+      "@topplethenun/simc-profile-variants-utils":
         specifier: workspace:*
         version: link:../utils
       fast-cartesian:
@@ -159,7 +159,7 @@ importers:
 
   packages/profiles:
     dependencies:
-      "@topplethenun/simc-profile-variants-sims-utils":
+      "@topplethenun/simc-profile-variants-utils":
         specifier: workspace:*
         version: link:../utils
       ts-dedent:
@@ -190,17 +190,17 @@ importers:
 
   packages/templates:
     dependencies:
-      "@topplethenun/simc-profile-variants-sims-generators":
+      "@topplethenun/simc-profile-variants-generators":
         specifier: workspace:*
         version: link:../generators
-      "@topplethenun/simc-profile-variants-sims-profiles":
+      "@topplethenun/simc-profile-variants-profiles":
         specifier: workspace:*
         version: link:../profiles
-      "@topplethenun/simc-profile-variants-sims-utils":
+      "@topplethenun/simc-profile-variants-utils":
         specifier: workspace:*
         version: link:../utils
     devDependencies:
-      "@topplethenun/simc-profile-variants-sims-config":
+      "@topplethenun/simc-profile-variants-config":
         specifier: workspace:*
         version: link:../config
       "@types/node":

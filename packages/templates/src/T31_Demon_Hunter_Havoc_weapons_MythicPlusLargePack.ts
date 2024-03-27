@@ -1,5 +1,7 @@
+/* eslint-disable unicorn/filename-case -- Disabling because this needs to match simc. */
 import { dedent } from "ts-dedent";
 
+/* eslint-disable camelcase -- Disabling because this needs to match simc. */
 export const T31_Demon_Hunter_Havoc_weapons_MythicPlusLargePack = dedent` 
   iterations=10000
   desired_targets=10

@@ -1,10 +1,10 @@
 import {
-  type EncounterType,
   encounterTypes,
-  type Generator,
+  type EncounterType,
   generators,
-} from "@topplethenun/simc-profile-variants-sims-generators";
-import { type Profile } from "@topplethenun/simc-profile-variants-sims-profiles";
+  type Generator,
+} from "@topplethenun/simc-profile-variants-generators";
+import { type Profile } from "@topplethenun/simc-profile-variants-profiles";
 import fastCartesian from "fast-cartesian";
 import { type Draft, produce } from "immer";
 
@@ -30,6 +30,7 @@ const createDefaultConfigForProfile = (profile: Profile): Config => ({
   },
 });
 
+/* eslint-disable camelcase -- Disabling because this needs to match simc. */
 export const DF4_Demon_Hunter_Vengeance: Config = createDefaultConfigForProfile(
   "DF4_Demon_Hunter_Vengeance",
 );
@@ -43,14 +44,17 @@ export const T31_Demon_Hunter_Vengeance_5p: Config =
   createDefaultConfigForProfile("T31_Demon_Hunter_Vengeance_5p");
 export const T31_Demon_Hunter_Vengeance_Crafted: Config =
   createDefaultConfigForProfile("T31_Demon_Hunter_Vengeance_Crafted");
+/* eslint-enable camelcase -- Enabling because the rest does not need to match simc. */
 
 export type ConfigMapping = Record<Profile, Config>;
 export const defaultConfigMapping: ConfigMapping = {
+  /* eslint-disable camelcase -- Disabling because this needs to match simc. */
   DF4_Demon_Hunter_Vengeance,
   T31_Demon_Hunter_Havoc,
   T31_Demon_Hunter_Vengeance,
   T31_Demon_Hunter_Vengeance_5p,
   T31_Demon_Hunter_Vengeance_Crafted,
+  /* eslint-enable camelcase -- Enabling because the rest does not need to match simc. */
 };
 export const getDefaultConfig = (profile: Profile): Config =>
   defaultConfigMapping[profile];

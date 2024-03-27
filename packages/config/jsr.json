@@ -1,5 +1,5 @@
 {
-  "name": "@topplethenun/simc-profile-variants-sims-config",
+  "name": "@topplethenun/simc-profile-variants-config",
   "version": "0.1.0",
   "exports": "./src/index.ts"
 }

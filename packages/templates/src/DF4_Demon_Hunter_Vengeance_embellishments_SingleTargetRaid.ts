@@ -1,5 +1,7 @@
+/* eslint-disable unicorn/filename-case -- Disabling because this needs to match simc. */
 import { dedent } from "ts-dedent";
 
+/* eslint-disable camelcase -- Disabling because this needs to match simc. */
 export const DF4_Demon_Hunter_Vengeance_embellishments_SingleTargetRaid = dedent` 
   iterations=10000
   desired_targets=1

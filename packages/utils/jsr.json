@@ -1,5 +1,5 @@
 {
-  "name": "@topplethenun/simc-profile-variants-sims-utils",
+  "name": "@topplethenun/simc-profile-variants-utils",
   "version": "0.1.0",
   "exports": {
     "./strings": "./src/strings.ts",

@@ -1,5 +1,5 @@
 {
-  "name": "@topplethenun/simc-profile-variants-sims-generators",
+  "name": "@topplethenun/simc-profile-variants-generators",
   "version": "0.1.0",
   "type": "module",
   "repository": {
@@ -24,8 +24,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@topplethenun/simc-profile-variants-sims-profiles": "workspace:*",
-    "@topplethenun/simc-profile-variants-sims-utils": "workspace:*",
+    "@topplethenun/simc-profile-variants-profiles": "workspace:*",
+    "@topplethenun/simc-profile-variants-utils": "workspace:*",
     "fast-cartesian": "9.0.0",
     "ts-dedent": "2.2.0"
   },

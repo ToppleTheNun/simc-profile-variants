@@ -1,13 +1,12 @@
 import {
   type EncounterType,
   type Generator,
-  type GeneratorName,
   getGeneratorByName,
+  type GeneratorName,
   isGeneratorName,
-} from "@topplethenun/simc-profile-variants-sims-generators";
-import { type Profile } from "@topplethenun/simc-profile-variants-sims-profiles";
-import { snakeToPascal } from "@topplethenun/simc-profile-variants-sims-utils/strings";
-
+} from "@topplethenun/simc-profile-variants-generators";
+import { type Profile } from "@topplethenun/simc-profile-variants-profiles";
+import { snakeToPascal } from "@topplethenun/simc-profile-variants-utils/strings";
 import { DF4_Demon_Hunter_Vengeance_embellishments_CouncilRaid as DF4DemonHunterVengeanceEmbellishmentsCouncilRaid } from "./DF4_Demon_Hunter_Vengeance_embellishments_CouncilRaid.ts";
 import { DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusLargePack as DF4DemonHunterVengeanceEmbellishmentsMythicPlusLargePack } from "./DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusLargePack.ts";
 import { DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusSmallPack as DF4DemonHunterVengeanceEmbellishmentsMythicPlusSmallPack } from "./DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusSmallPack.ts";
@@ -69,6 +68,7 @@ import { T31_Demon_Hunter_Vengeance_weapons_MythicPlusLargePack as T31DemonHunte
 import { T31_Demon_Hunter_Vengeance_weapons_MythicPlusSmallPack as T31DemonHunterVengeanceWeaponsMythicPlusSmallPack } from "./T31_Demon_Hunter_Vengeance_weapons_MythicPlusSmallPack.ts";
 import { T31_Demon_Hunter_Vengeance_weapons_SingleTargetRaid as T31DemonHunterVengeanceWeaponsSingleTargetRaid } from "./T31_Demon_Hunter_Vengeance_weapons_SingleTargetRaid.ts";
 
+/* eslint-disable camelcase -- Disabling because this needs to match simc. */
 export const DF4_Demon_Hunter_Vengeance_embellishments_CouncilRaid: string =
   DF4DemonHunterVengeanceEmbellishmentsCouncilRaid;
 export const DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusLargePack: string =
@@ -189,6 +189,7 @@ export const T31_Demon_Hunter_Vengeance_weapons_MythicPlusSmallPack: string =
   T31DemonHunterVengeanceWeaponsMythicPlusSmallPack;
 export const T31_Demon_Hunter_Vengeance_weapons_SingleTargetRaid: string =
   T31DemonHunterVengeanceWeaponsSingleTargetRaid;
+/* eslint-enable camelcase -- Enabling because the rest does not need to match simc. */
 
 export const templates = [
   "DF4_Demon_Hunter_Vengeance_embellishments_CouncilRaid",
@@ -257,6 +258,7 @@ export const isTemplate = (s: unknown): s is Template =>
   templates.includes(s as Template);
 
 const templateMapping: Record<Template, string> = {
+  /* eslint-disable camelcase -- Disabling because this needs to match simc. */
   DF4_Demon_Hunter_Vengeance_embellishments_CouncilRaid,
   DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusLargePack,
   DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusSmallPack,
@@ -317,6 +319,7 @@ const templateMapping: Record<Template, string> = {
   T31_Demon_Hunter_Vengeance_weapons_MythicPlusLargePack,
   T31_Demon_Hunter_Vengeance_weapons_MythicPlusSmallPack,
   T31_Demon_Hunter_Vengeance_weapons_SingleTargetRaid,
+  /* eslint-enable camelcase -- Enabling because the rest does not need to match simc. */
 };
 export const getTemplateByName = (template: Template): string =>
   templateMapping[template];

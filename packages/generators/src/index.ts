@@ -1,8 +1,8 @@
 import {
   getProfile,
   type Profile,
-} from "@topplethenun/simc-profile-variants-sims-profiles";
-import { isPresent } from "@topplethenun/simc-profile-variants-sims-utils/type-guards";
+} from "@topplethenun/simc-profile-variants-profiles";
+import { isPresent } from "@topplethenun/simc-profile-variants-utils/type-guards";
 
 import {
   type EncounterType,

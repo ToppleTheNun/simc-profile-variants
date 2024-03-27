@@ -5,15 +5,15 @@ import { fileURLToPath } from "node:url";
 import type {
   ConfigMapping,
   ConfigMatrixItem,
-} from "@topplethenun/simc-profile-variants-sims-config";
+} from "@topplethenun/simc-profile-variants-config";
 import {
   defaultConfigMapping,
   getMatrix,
   getModifiedConfigMapping,
-} from "@topplethenun/simc-profile-variants-sims-config";
-import { getGeneratorByName } from "@topplethenun/simc-profile-variants-sims-generators";
-import { snakeToPascal } from "@topplethenun/simc-profile-variants-sims-utils/strings";
-import { isPresent } from "@topplethenun/simc-profile-variants-sims-utils/type-guards";
+} from "@topplethenun/simc-profile-variants-config";
+import { getGeneratorByName } from "@topplethenun/simc-profile-variants-generators";
+import { snakeToPascal } from "@topplethenun/simc-profile-variants-utils/strings";
+import { isPresent } from "@topplethenun/simc-profile-variants-utils/type-guards";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);

@@ -2,7 +2,7 @@ import { writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-import { profiles } from "@topplethenun/simc-profile-variants-sims-profiles";
+import { profiles } from "@topplethenun/simc-profile-variants-profiles";
 import { format } from "prettier";
 import { dedent } from "ts-dedent";
 
@@ -27,8 +27,8 @@ import {
   type EncounterType,
   generators,
   type Generator,
-} from '@topplethenun/simc-profile-variants-sims-generators';
-import { type Profile } from '@topplethenun/simc-profile-variants-sims-profiles';
+} from '@topplethenun/simc-profile-variants-generators';
+import { type Profile } from '@topplethenun/simc-profile-variants-profiles';
 import fastCartesian from 'fast-cartesian';
 import { type Draft, produce } from 'immer';
 

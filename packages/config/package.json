@@ -1,5 +1,5 @@
 {
-  "name": "@topplethenun/simc-profile-variants-sims-config",
+  "name": "@topplethenun/simc-profile-variants-config",
   "version": "0.1.0",
   "type": "module",
   "repository": {
@@ -25,9 +25,9 @@
     "update": "tsx ./scripts/update.ts"
   },
   "dependencies": {
-    "@topplethenun/simc-profile-variants-sims-generators": "workspace:*",
-    "@topplethenun/simc-profile-variants-sims-profiles": "workspace:*",
-    "@topplethenun/simc-profile-variants-sims-utils": "workspace:*",
+    "@topplethenun/simc-profile-variants-generators": "workspace:*",
+    "@topplethenun/simc-profile-variants-profiles": "workspace:*",
+    "@topplethenun/simc-profile-variants-utils": "workspace:*",
     "fast-cartesian": "9.0.0",
     "immer": "10.0.4"
   },

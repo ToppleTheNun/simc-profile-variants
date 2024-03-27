@@ -3,8 +3,8 @@ import { writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-import type { SimcFileInDirectory } from "@topplethenun/simc-profile-variants-sims-utils/simc";
-import { getSimcFilesInFlatDirectory } from "@topplethenun/simc-profile-variants-sims-utils/simc";
+import type { SimcFileInDirectory } from "@topplethenun/simc-profile-variants-utils/simc";
+import { getSimcFilesInFlatDirectory } from "@topplethenun/simc-profile-variants-utils/simc";
 import { format } from "prettier";
 import { dedent } from "ts-dedent";
 
@@ -61,9 +61,9 @@ import {
   getGeneratorByName,
   type GeneratorName,
   isGeneratorName,
-} from '@topplethenun/simc-profile-variants-sims-generators';
-import { type Profile } from '@topplethenun/simc-profile-variants-sims-profiles';
-import { snakeToPascal } from '@topplethenun/simc-profile-variants-sims-utils/strings';
+} from '@topplethenun/simc-profile-variants-generators';
+import { type Profile } from '@topplethenun/simc-profile-variants-profiles';
+import { snakeToPascal } from '@topplethenun/simc-profile-variants-utils/strings';
 ${imports}
 
 

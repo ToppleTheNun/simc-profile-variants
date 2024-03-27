@@ -3,8 +3,8 @@ import { writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-import type { SimcFileInDirectory } from "@topplethenun/simc-profile-variants-sims-utils/simc";
-import { getSimcFilesInFlatDirectory } from "@topplethenun/simc-profile-variants-sims-utils/simc";
+import type { SimcFileInDirectory } from "@topplethenun/simc-profile-variants-utils/simc";
+import { getSimcFilesInFlatDirectory } from "@topplethenun/simc-profile-variants-utils/simc";
 import { format } from "prettier";
 import { dedent } from "ts-dedent";
 
@@ -55,7 +55,7 @@ export async function generateTypeScriptForSimcFiles(): Promise<void> {
   const mapping = simcFiles.map((file) => `${file.baseName},`).join("\n");
 
   const rawContents = dedent`
-import { isPresent } from "@topplethenun/simc-profile-variants-sims-utils/type-guards";
+import { isPresent } from "@topplethenun/simc-profile-variants-utils/type-guards";
 ${imports}
 
 

@@ -2,7 +2,7 @@ import { readdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-import { isPresent } from "@topplethenun/simc-profile-variants-sims-utils/type-guards";
+import { isPresent } from "@topplethenun/simc-profile-variants-utils/type-guards";
 import { format } from "prettier";
 
 const __filename = fileURLToPath(import.meta.url);

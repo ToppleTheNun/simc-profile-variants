@@ -1,4 +1,4 @@
-import { isPresent } from "@topplethenun/simc-profile-variants-sims-utils/type-guards";
+import { isPresent } from "@topplethenun/simc-profile-variants-utils/type-guards";
 import { DF4_Demon_Hunter_Vengeance as DF4DemonHunterVengeance } from "./DF4_Demon_Hunter_Vengeance.ts";
 import { T31_Demon_Hunter_Havoc as T31DemonHunterHavoc } from "./T31_Demon_Hunter_Havoc.ts";
 import { T31_Demon_Hunter_Vengeance as T31DemonHunterVengeance } from "./T31_Demon_Hunter_Vengeance.ts";

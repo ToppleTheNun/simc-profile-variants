@@ -1,5 +1,5 @@
 {
-  "name": "@topplethenun/simc-profile-variants-sims-profiles",
+  "name": "@topplethenun/simc-profile-variants-profiles",
   "version": "0.1.0",
   "type": "module",
   "repository": {
@@ -30,7 +30,7 @@
     "update": "tsx ./scripts/update.ts"
   },
   "dependencies": {
-    "@topplethenun/simc-profile-variants-sims-utils": "workspace:*",
+    "@topplethenun/simc-profile-variants-utils": "workspace:*",
     "ts-dedent": "2.2.0"
   },
   "devDependencies": {
