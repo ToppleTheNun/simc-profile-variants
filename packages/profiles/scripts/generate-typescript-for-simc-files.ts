@@ -22,7 +22,7 @@ async function generateTypeScriptForSimcFile(
     import { dedent } from 'ts-dedent';
   
     /* eslint-disable camelcase -- Disabling because this needs to match simc. */
-    export const ${simcFile.baseName} = dedent\` 
+    export const ${simcFile.baseName}: string = dedent\` 
     ${simcFile.contents.trim()}
     \`;
     `,

@@ -1,6 +1,8 @@
+/* eslint-disable unicorn/filename-case -- Disabling because this needs to match simc. */
 import { dedent } from "ts-dedent";
 
-export const T31_Demon_Hunter_Vengeance_5p = dedent` 
+/* eslint-disable camelcase -- Disabling because this needs to match simc. */
+export const T31_Demon_Hunter_Vengeance_5p: string = dedent` 
   demonhunter="T31_Demon_Hunter_Vengeance"
   spec=vengeance
   level=70

@@ -9,9 +9,7 @@
   },
   "author": "Richard Harrah",
   "license": "MIT",
-  "engines": {
-    "node": ">= 20"
-  },
+  "engines": { "node": ">= 20" },
   "exports": {
     "./DF4_Demon_Hunter_Vengeance": "./src/DF4_Demon_Hunter_Vengeance.ts",
     ".": "./src/index.ts",
@@ -20,9 +18,7 @@
     "./T31_Demon_Hunter_Vengeance_5p": "./src/T31_Demon_Hunter_Vengeance_5p.ts",
     "./T31_Demon_Hunter_Vengeance_Crafted": "./src/T31_Demon_Hunter_Vengeance_Crafted.ts"
   },
-  "files": [
-    "src"
-  ],
+  "files": ["src"],
   "scripts": {
     "lint": "eslint src",
     "test": "vitest --passWithNoTests",
@@ -42,8 +38,6 @@
     "typescript": "5.4.3",
     "vitest": "1.4.0"
   },
-  "publishConfig": {
-    "access": "public"
-  },
+  "publishConfig": { "access": "public" },
   "sideEffects": false
 }
