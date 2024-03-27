@@ -1,5 +1,6 @@
 {
   "name": "@topplethenun/simc-profile-variants-monorepo",
+  "version": "0.1.1",
   "type": "module",
   "repository": {
     "type": "git",
