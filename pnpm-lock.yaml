@@ -8,16 +8,16 @@ importers:
   .:
     devDependencies:
       "@commitlint/cli":
-        specifier: ^19.2.1
+        specifier: 19.2.1
         version: 19.2.1(@types/node@20.11.30)(typescript@5.4.3)
       "@commitlint/config-conventional":
-        specifier: ^19.1.0
+        specifier: 19.1.0
         version: 19.1.0
       "@commitlint/parse":
-        specifier: ^19.0.3
+        specifier: 19.0.3
         version: 19.0.3
       "@commitlint/types":
-        specifier: ^19.0.3
+        specifier: 19.0.3
         version: 19.0.3
       "@eslint/js":
         specifier: 8.57.0
@@ -32,7 +32,7 @@ importers:
         specifier: 2.0.5
         version: 2.0.5
       bumpp:
-        specifier: ^9.4.0
+        specifier: 9.4.0
         version: 9.4.0
       eslint:
         specifier: 8.57.0
@@ -59,7 +59,7 @@ importers:
         specifier: 15.0.0
         version: 15.0.0
       lint-staged:
-        specifier: ^15.2.2
+        specifier: 15.2.2
         version: 15.2.2
       prettier:
         specifier: 3.2.5
@@ -68,7 +68,7 @@ importers:
         specifier: 0.18.1
         version: 0.18.1(prettier@3.2.5)
       simple-git-hooks:
-        specifier: ^2.11.1
+        specifier: 2.11.1
         version: 2.11.1
       turbo:
         specifier: 1.13.0
@@ -5894,7 +5894,7 @@ packages:
     engines: { node: ">=12" }
     dependencies:
       cliui: 8.0.1
-      escalade: 3.1.1
+      escalade: 3.1.2
       get-caller-file: 2.0.5
       require-directory: 2.1.1
       string-width: 4.2.3
