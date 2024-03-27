@@ -1,0 +1,49 @@
+{
+  "name": "@topplethenun/simc-profile-variants-sims-profiles",
+  "version": "0.1.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ToppleTheNun/simc-profile-variants",
+    "directory": "packages/profiles"
+  },
+  "author": "Richard Harrah",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 20"
+  },
+  "exports": {
+    "./DF4_Demon_Hunter_Vengeance": "./src/DF4_Demon_Hunter_Vengeance.ts",
+    ".": "./src/index.ts",
+    "./T31_Demon_Hunter_Havoc": "./src/T31_Demon_Hunter_Havoc.ts",
+    "./T31_Demon_Hunter_Vengeance": "./src/T31_Demon_Hunter_Vengeance.ts",
+    "./T31_Demon_Hunter_Vengeance_5p": "./src/T31_Demon_Hunter_Vengeance_5p.ts",
+    "./T31_Demon_Hunter_Vengeance_Crafted": "./src/T31_Demon_Hunter_Vengeance_Crafted.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "lint": "eslint src",
+    "test": "vitest --passWithNoTests",
+    "typecheck": "tsc --noEmit",
+    "update": "tsx ./scripts/update.ts"
+  },
+  "dependencies": {
+    "@topplethenun/simc-profile-variants-sims-utils": "workspace:*",
+    "ts-dedent": "2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.30",
+    "prettier": "3.2.5",
+    "rimraf": "5.0.5",
+    "tsup": "8.0.2",
+    "tsx": "4.7.1",
+    "typescript": "5.4.3",
+    "vitest": "1.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false
+}

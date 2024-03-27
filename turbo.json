@@ -3,29 +3,18 @@
   "globalDependencies": ["**/.env.*local"],
   "globalEnv": ["PORT"],
   "pipeline": {
-    "build": {
-      "dependsOn": ["^update", "^build"]
-    },
     "test": {
       "outputs": ["coverage/**"],
-      "dependsOn": ["^build"]
+      "dependsOn": ["^update"]
     },
     "lint": {
-      "dependsOn": ["^build"]
+      "dependsOn": ["^update"]
     },
     "typecheck": {
-      "dependsOn": ["^build"]
-    },
-    "dev": {
-      "dependsOn": ["^build"],
-      "cache": false,
-      "persistent": true
-    },
-    "clean": {
-      "cache": false
+      "dependsOn": ["^update"]
     },
     "update": {
-      "dependsOn": ["^update", "^build"]
+      "dependsOn": ["^update"]
     }
   }
 }

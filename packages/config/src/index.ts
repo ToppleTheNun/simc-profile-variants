@@ -1,0 +1,92 @@
+import {
+  type EncounterType,
+  encounterTypes,
+  type Generator,
+  generators,
+} from "@topplethenun/simc-profile-variants-sims-generators";
+import { type Profile } from "@topplethenun/simc-profile-variants-sims-profiles";
+import fastCartesian from "fast-cartesian";
+import { type Draft, produce } from "immer";
+
+export interface ConfigMatrix {
+  encounterTypes: EncounterType[];
+  generators: Generator[];
+}
+export interface ConfigMatrixItem {
+  encounterType: EncounterType;
+  generator: Generator;
+  profile: Profile;
+}
+export interface Config {
+  profile: Profile;
+  matrix: ConfigMatrix;
+}
+
+const createDefaultConfigForProfile = (profile: Profile): Config => ({
+  profile,
+  matrix: {
+    encounterTypes: [...encounterTypes],
+    generators,
+  },
+});
+
+export const DF4_Demon_Hunter_Vengeance: Config = createDefaultConfigForProfile(
+  "DF4_Demon_Hunter_Vengeance",
+);
+export const T31_Demon_Hunter_Havoc: Config = createDefaultConfigForProfile(
+  "T31_Demon_Hunter_Havoc",
+);
+export const T31_Demon_Hunter_Vengeance: Config = createDefaultConfigForProfile(
+  "T31_Demon_Hunter_Vengeance",
+);
+export const T31_Demon_Hunter_Vengeance_5p: Config =
+  createDefaultConfigForProfile("T31_Demon_Hunter_Vengeance_5p");
+export const T31_Demon_Hunter_Vengeance_Crafted: Config =
+  createDefaultConfigForProfile("T31_Demon_Hunter_Vengeance_Crafted");
+
+export type ConfigMapping = Record<Profile, Config>;
+export const defaultConfigMapping: ConfigMapping = {
+  DF4_Demon_Hunter_Vengeance,
+  T31_Demon_Hunter_Havoc,
+  T31_Demon_Hunter_Vengeance,
+  T31_Demon_Hunter_Vengeance_5p,
+  T31_Demon_Hunter_Vengeance_Crafted,
+};
+export const getDefaultConfig = (profile: Profile): Config =>
+  defaultConfigMapping[profile];
+
+type ConfigProducerReturningConfig = (draft: Draft<Config>) => Config;
+type ConfigProducerReturningVoid = (draft: Draft<Config>) => void;
+export type ConfigProducer =
+  | ConfigProducerReturningConfig
+  | ConfigProducerReturningVoid;
+export const getModifiedConfig = (
+  config: Config,
+  producer: ConfigProducer,
+): Config => produce(config, producer);
+
+type ConfigMappingProducerReturningConfig = (
+  draft: Draft<ConfigMapping>,
+) => ConfigMapping;
+type ConfigMappingProducerReturningVoid = (draft: Draft<ConfigMapping>) => void;
+export type ConfigMappingProducer =
+  | ConfigMappingProducerReturningConfig
+  | ConfigMappingProducerReturningVoid;
+export const getModifiedConfigMapping = (
+  config: ConfigMapping,
+  producer: ConfigMappingProducer,
+): ConfigMapping => produce(config, producer);
+
+const toConfigMatrixItem = ([profile, encounterType, generator]: [
+  Profile,
+  EncounterType,
+  Generator,
+]): ConfigMatrixItem => ({ encounterType, generator, profile });
+export const getMatrix = (config: Config): ConfigMatrixItem[] => {
+  const profiles = [config.profile];
+  const matrixEncounterTypes = config.matrix.encounterTypes;
+  const matrixGenerators = config.matrix.generators;
+  return fastCartesian([profiles, matrixEncounterTypes, matrixGenerators]).map(
+    toConfigMatrixItem,
+  );
+};

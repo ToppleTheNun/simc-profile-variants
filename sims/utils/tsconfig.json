@@ -1,4 +1,0 @@
-{
-  "extends": ["@topplethenun/simc-profile-variants-tsconfig/node.json"],
-  "exclude": ["dist"]
-}

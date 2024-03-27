@@ -1,0 +1,113 @@
+name: 🔄 CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request: {}
+
+permissions: read-all
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+jobs:
+  commitlint:
+    name: 🎨 Commitlint
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⬇️ Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 📥 Install pnpm
+        run: corepack enable
+
+      - name: 📥 Use Node.js from .nvmrc
+        uses: actions/setup-node@v4
+        with:
+          cache: "pnpm"
+          node-version-file: ".nvmrc"
+
+      - name: 📥 Install via pnpm
+        run: pnpm install
+        shell: bash
+
+      - name: 🔬 Validate current commit (last commit) with commitlint
+        if: github.event_name == 'push'
+        run: npx commitlint --from HEAD~1 --to HEAD --verbose
+
+      - name: 🔬 Validate PR commits with commitlint
+        if: github.event_name == 'pull_request'
+        run: npx commitlint --from ${{ github.event.pull_request.head.sha }}~${{ github.event.pull_request.commits }} --to ${{ github.event.pull_request.head.sha }} --verbose
+
+  lint:
+    name: ⬣ ESLint
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⬇️ Checkout repo
+        uses: actions/checkout@v4
+
+      - name: 📥 Install pnpm
+        run: corepack enable
+
+      - name: 📥 Use Node.js from .nvmrc
+        uses: actions/setup-node@v4
+        with:
+          cache: "pnpm"
+          node-version-file: ".nvmrc"
+
+      - name: 📥 Install via pnpm
+        run: pnpm install
+        shell: bash
+
+      - name: 🔬 Lint
+        run: pnpm run lint
+
+  prettier:
+    name: 🔎 Prettier
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⬇️ Checkout repo
+        uses: actions/checkout@v4
+
+      - name: 📥 Install pnpm
+        run: corepack enable
+
+      - name: 📥 Use Node.js from .nvmrc
+        uses: actions/setup-node@v4
+        with:
+          cache: "pnpm"
+          node-version-file: ".nvmrc"
+
+      - name: 📥 Install via pnpm
+        run: pnpm install
+        shell: bash
+
+      - name: ❤️ Run format:check
+        run: pnpm run format:check
+
+  test:
+    name: ⚡ Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⬇️ Checkout repo
+        uses: actions/checkout@v4
+
+      - name: 📥 Install pnpm
+        run: corepack enable
+
+      - name: 📥 Use Node.js from .nvmrc
+        uses: actions/setup-node@v4
+        with:
+          cache: "pnpm"
+          node-version-file: ".nvmrc"
+
+      - name: 📥 Install via pnpm
+        run: pnpm install
+        shell: bash
+
+      - name: ⚡ Run tests
+        run: pnpm run test

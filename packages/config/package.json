@@ -1,0 +1,48 @@
+{
+  "name": "@topplethenun/simc-profile-variants-sims-config",
+  "version": "0.1.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ToppleTheNun/simc-profile-variants",
+    "directory": "packages/config"
+  },
+  "author": "Richard Harrah",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 20"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "lint": "eslint src",
+    "test": "vitest --passWithNoTests",
+    "typecheck": "tsc --noEmit",
+    "update": "tsx ./scripts/update.ts"
+  },
+  "dependencies": {
+    "@topplethenun/simc-profile-variants-sims-generators": "workspace:*",
+    "@topplethenun/simc-profile-variants-sims-profiles": "workspace:*",
+    "@topplethenun/simc-profile-variants-sims-utils": "workspace:*",
+    "fast-cartesian": "9.0.0",
+    "immer": "10.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.30",
+    "prettier": "3.2.5",
+    "rimraf": "5.0.5",
+    "ts-dedent": "2.2.0",
+    "tsup": "8.0.2",
+    "tsx": "4.7.1",
+    "typescript": "5.4.3",
+    "vitest": "1.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false
+}
