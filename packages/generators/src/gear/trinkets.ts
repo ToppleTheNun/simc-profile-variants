@@ -102,7 +102,15 @@ export const gear: Gear[] = [
   {
     name: "Anvil",
     slot: "trinket1",
-    options: ",id=202617,bonus_id=4800/4786/1498,ilevel=528",
+    options:
+      "elementium_pocket_anvil,id=202617,bonus_id=4800/4786/1498,ilevel=528",
     uniqueId: 202617,
+  },
+  {
+    name: "Dispenser",
+    slot: "trinket1",
+    options:
+      "dragonfire_bomb_dispenser,id=202610,bonus_id=4800/4786/1498,ilevel=528",
+    uniqueId: 202610,
   },
 ];

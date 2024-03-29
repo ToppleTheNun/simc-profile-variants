@@ -90,7 +90,10 @@ export const T31_Demon_Hunter_Vengeance_trinkets_CouncilRaid = dedent`
   profileset."Bandolier / All-totem"+=trinket2=,id=194306,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Bandolier / Anvil"+=trinket1=bandolier_of_twisted_blades,id=207165,bonus_id=7187/1520,ilevel=528
-  profileset."Bandolier / Anvil"+=trinket2=,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  profileset."Bandolier / Anvil"+=trinket2=elementium_pocket_anvil,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  
+  profileset."Bandolier / Dispenser"+=trinket1=bandolier_of_twisted_blades,id=207165,bonus_id=7187/1520,ilevel=528
+  profileset."Bandolier / Dispenser"+=trinket2=dragonfire_bomb_dispenser,id=202610,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Ashes / Badge"+=trinket1=ashes_of_the_embersoul,id=207167,bonus_id=7187/1520,ilevel=528
   profileset."Ashes / Badge"+=trinket2=pips_emerald_friendship_badge,id=207168,bonus_id=7187/1520,ilevel=528
@@ -129,7 +132,10 @@ export const T31_Demon_Hunter_Vengeance_trinkets_CouncilRaid = dedent`
   profileset."Ashes / All-totem"+=trinket2=,id=194306,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Ashes / Anvil"+=trinket1=ashes_of_the_embersoul,id=207167,bonus_id=7187/1520,ilevel=528
-  profileset."Ashes / Anvil"+=trinket2=,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  profileset."Ashes / Anvil"+=trinket2=elementium_pocket_anvil,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  
+  profileset."Ashes / Dispenser"+=trinket1=ashes_of_the_embersoul,id=207167,bonus_id=7187/1520,ilevel=528
+  profileset."Ashes / Dispenser"+=trinket2=dragonfire_bomb_dispenser,id=202610,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Badge / Gift"+=trinket1=pips_emerald_friendship_badge,id=207168,bonus_id=7187/1520,ilevel=528
   profileset."Badge / Gift"+=trinket2=gift_of_ursine_vengeance,id=207173,bonus_id=7187/1520,ilevel=528
@@ -165,7 +171,10 @@ export const T31_Demon_Hunter_Vengeance_trinkets_CouncilRaid = dedent`
   profileset."Badge / All-totem"+=trinket2=,id=194306,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Badge / Anvil"+=trinket1=pips_emerald_friendship_badge,id=207168,bonus_id=7187/1520,ilevel=528
-  profileset."Badge / Anvil"+=trinket2=,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  profileset."Badge / Anvil"+=trinket2=elementium_pocket_anvil,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  
+  profileset."Badge / Dispenser"+=trinket1=pips_emerald_friendship_badge,id=207168,bonus_id=7187/1520,ilevel=528
+  profileset."Badge / Dispenser"+=trinket2=dragonfire_bomb_dispenser,id=202610,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Gift / Rageheart"+=trinket1=gift_of_ursine_vengeance,id=207173,bonus_id=7187/1520,ilevel=528
   profileset."Gift / Rageheart"+=trinket2=fyrakks_tainted_rageheart,id=207174,bonus_id=7187/1520,ilevel=528
@@ -198,7 +207,10 @@ export const T31_Demon_Hunter_Vengeance_trinkets_CouncilRaid = dedent`
   profileset."Gift / All-totem"+=trinket2=,id=194306,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Gift / Anvil"+=trinket1=gift_of_ursine_vengeance,id=207173,bonus_id=7187/1520,ilevel=528
-  profileset."Gift / Anvil"+=trinket2=,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  profileset."Gift / Anvil"+=trinket2=elementium_pocket_anvil,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  
+  profileset."Gift / Dispenser"+=trinket1=gift_of_ursine_vengeance,id=207173,bonus_id=7187/1520,ilevel=528
+  profileset."Gift / Dispenser"+=trinket2=dragonfire_bomb_dispenser,id=202610,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Rageheart / Signet"+=trinket1=fyrakks_tainted_rageheart,id=207174,bonus_id=7187/1520,ilevel=528
   profileset."Rageheart / Signet"+=trinket2=cataclysmic_signet_brand,id=207166,bonus_id=7187/1520,ilevel=528
@@ -228,7 +240,10 @@ export const T31_Demon_Hunter_Vengeance_trinkets_CouncilRaid = dedent`
   profileset."Rageheart / All-totem"+=trinket2=,id=194306,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Rageheart / Anvil"+=trinket1=fyrakks_tainted_rageheart,id=207174,bonus_id=7187/1520,ilevel=528
-  profileset."Rageheart / Anvil"+=trinket2=,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  profileset."Rageheart / Anvil"+=trinket2=elementium_pocket_anvil,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  
+  profileset."Rageheart / Dispenser"+=trinket1=fyrakks_tainted_rageheart,id=207174,bonus_id=7187/1520,ilevel=528
+  profileset."Rageheart / Dispenser"+=trinket2=dragonfire_bomb_dispenser,id=202610,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Signet / Idol"+=trinket1=cataclysmic_signet_brand,id=207166,bonus_id=7187/1520,ilevel=528
   profileset."Signet / Idol"+=trinket2=coiled_serpent_idol,id=207175,bonus_id=7187/1520,ilevel=528
@@ -255,7 +270,10 @@ export const T31_Demon_Hunter_Vengeance_trinkets_CouncilRaid = dedent`
   profileset."Signet / All-totem"+=trinket2=,id=194306,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Signet / Anvil"+=trinket1=cataclysmic_signet_brand,id=207166,bonus_id=7187/1520,ilevel=528
-  profileset."Signet / Anvil"+=trinket2=,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  profileset."Signet / Anvil"+=trinket2=elementium_pocket_anvil,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  
+  profileset."Signet / Dispenser"+=trinket1=cataclysmic_signet_brand,id=207166,bonus_id=7187/1520,ilevel=528
+  profileset."Signet / Dispenser"+=trinket2=dragonfire_bomb_dispenser,id=202610,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Idol / Augury"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520,ilevel=528
   profileset."Idol / Augury"+=trinket2=augury_of_the_primal_flame,id=208614,bonus_id=7187/1527,ilevel=528
@@ -279,7 +297,10 @@ export const T31_Demon_Hunter_Vengeance_trinkets_CouncilRaid = dedent`
   profileset."Idol / All-totem"+=trinket2=,id=194306,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Idol / Anvil"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520,ilevel=528
-  profileset."Idol / Anvil"+=trinket2=,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  profileset."Idol / Anvil"+=trinket2=elementium_pocket_anvil,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  
+  profileset."Idol / Dispenser"+=trinket1=coiled_serpent_idol,id=207175,bonus_id=7187/1520,ilevel=528
+  profileset."Idol / Dispenser"+=trinket2=dragonfire_bomb_dispenser,id=202610,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Augury / Boon"+=trinket1=augury_of_the_primal_flame,id=208614,bonus_id=7187/1527,ilevel=528
   profileset."Augury / Boon"+=trinket2=stormeaters_boon,id=194302,bonus_id=6652/7981/1498/8767,ilevel=528
@@ -300,7 +321,10 @@ export const T31_Demon_Hunter_Vengeance_trinkets_CouncilRaid = dedent`
   profileset."Augury / All-totem"+=trinket2=,id=194306,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Augury / Anvil"+=trinket1=augury_of_the_primal_flame,id=208614,bonus_id=7187/1527,ilevel=528
-  profileset."Augury / Anvil"+=trinket2=,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  profileset."Augury / Anvil"+=trinket2=elementium_pocket_anvil,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  
+  profileset."Augury / Dispenser"+=trinket1=augury_of_the_primal_flame,id=208614,bonus_id=7187/1527,ilevel=528
+  profileset."Augury / Dispenser"+=trinket2=dragonfire_bomb_dispenser,id=202610,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Boon / Grieftorch"+=trinket1=stormeaters_boon,id=194302,bonus_id=6652/7981/1498/8767,ilevel=528
   profileset."Boon / Grieftorch"+=trinket2=manic_grieftorch,id=194308,bonus_id=7981/6652/1498/8767,ilevel=528
@@ -318,7 +342,10 @@ export const T31_Demon_Hunter_Vengeance_trinkets_CouncilRaid = dedent`
   profileset."Boon / All-totem"+=trinket2=,id=194306,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Boon / Anvil"+=trinket1=stormeaters_boon,id=194302,bonus_id=6652/7981/1498/8767,ilevel=528
-  profileset."Boon / Anvil"+=trinket2=,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  profileset."Boon / Anvil"+=trinket2=elementium_pocket_anvil,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  
+  profileset."Boon / Dispenser"+=trinket1=stormeaters_boon,id=194302,bonus_id=6652/7981/1498/8767,ilevel=528
+  profileset."Boon / Dispenser"+=trinket2=dragonfire_bomb_dispenser,id=202610,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Grieftorch / Call"+=trinket1=manic_grieftorch,id=194308,bonus_id=7981/6652/1498/8767,ilevel=528
   profileset."Grieftorch / Call"+=trinket2=neltharions_call_to_chaos,id=204201,bonus_id=4800/4786/1498,ilevel=528
@@ -327,7 +354,10 @@ export const T31_Demon_Hunter_Vengeance_trinkets_CouncilRaid = dedent`
   profileset."Grieftorch / Beacon"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Grieftorch / Anvil"+=trinket1=manic_grieftorch,id=194308,bonus_id=7981/6652/1498/8767,ilevel=528
-  profileset."Grieftorch / Anvil"+=trinket2=,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  profileset."Grieftorch / Anvil"+=trinket2=elementium_pocket_anvil,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  
+  profileset."Grieftorch / Dispenser"+=trinket1=manic_grieftorch,id=194308,bonus_id=7981/6652/1498/8767,ilevel=528
+  profileset."Grieftorch / Dispenser"+=trinket2=dragonfire_bomb_dispenser,id=202610,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Call / Beacon"+=trinket1=neltharions_call_to_chaos,id=204201,bonus_id=4800/4786/1498,ilevel=528
   profileset."Call / Beacon"+=trinket2=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498,ilevel=528
@@ -339,7 +369,10 @@ export const T31_Demon_Hunter_Vengeance_trinkets_CouncilRaid = dedent`
   profileset."Call / All-totem"+=trinket2=,id=194306,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Call / Anvil"+=trinket1=neltharions_call_to_chaos,id=204201,bonus_id=4800/4786/1498,ilevel=528
-  profileset."Call / Anvil"+=trinket2=,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  profileset."Call / Anvil"+=trinket2=elementium_pocket_anvil,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  
+  profileset."Call / Dispenser"+=trinket1=neltharions_call_to_chaos,id=204201,bonus_id=4800/4786/1498,ilevel=528
+  profileset."Call / Dispenser"+=trinket2=dragonfire_bomb_dispenser,id=202610,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Beacon / Spiteful"+=trinket1=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498,ilevel=528
   profileset."Beacon / Spiteful"+=trinket2=spiteful_storm,id=194309,bonus_id=4800/4786/1498,ilevel=528
@@ -348,11 +381,23 @@ export const T31_Demon_Hunter_Vengeance_trinkets_CouncilRaid = dedent`
   profileset."Beacon / All-totem"+=trinket2=,id=194306,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Beacon / Anvil"+=trinket1=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498,ilevel=528
-  profileset."Beacon / Anvil"+=trinket2=,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  profileset."Beacon / Anvil"+=trinket2=elementium_pocket_anvil,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  
+  profileset."Beacon / Dispenser"+=trinket1=beacon_to_the_beyond,id=203963,bonus_id=4800/4786/1498,ilevel=528
+  profileset."Beacon / Dispenser"+=trinket2=dragonfire_bomb_dispenser,id=202610,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."Spiteful / Anvil"+=trinket1=spiteful_storm,id=194309,bonus_id=4800/4786/1498,ilevel=528
-  profileset."Spiteful / Anvil"+=trinket2=,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  profileset."Spiteful / Anvil"+=trinket2=elementium_pocket_anvil,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  
+  profileset."Spiteful / Dispenser"+=trinket1=spiteful_storm,id=194309,bonus_id=4800/4786/1498,ilevel=528
+  profileset."Spiteful / Dispenser"+=trinket2=dragonfire_bomb_dispenser,id=202610,bonus_id=4800/4786/1498,ilevel=528
   
   profileset."All-totem / Anvil"+=trinket1=,id=194306,bonus_id=4800/4786/1498,ilevel=528
-  profileset."All-totem / Anvil"+=trinket2=,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  profileset."All-totem / Anvil"+=trinket2=elementium_pocket_anvil,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  
+  profileset."All-totem / Dispenser"+=trinket1=,id=194306,bonus_id=4800/4786/1498,ilevel=528
+  profileset."All-totem / Dispenser"+=trinket2=dragonfire_bomb_dispenser,id=202610,bonus_id=4800/4786/1498,ilevel=528
+  
+  profileset."Anvil / Dispenser"+=trinket1=elementium_pocket_anvil,id=202617,bonus_id=4800/4786/1498,ilevel=528
+  profileset."Anvil / Dispenser"+=trinket2=dragonfire_bomb_dispenser,id=202610,bonus_id=4800/4786/1498,ilevel=528
   `;
