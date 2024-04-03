@@ -139,3 +139,7 @@ export const stringifyGearCombinations = (gearPairs: GearPair[]): string =>
 
 export const stringifiedPairedGearCombinations = (equipment: Gear[]): string =>
   stringifyGearCombinations(pairedGearCombinations(equipment));
+
+export function defineGear(gear: Gear[]): Gear[] {
+  return gear;
+}
