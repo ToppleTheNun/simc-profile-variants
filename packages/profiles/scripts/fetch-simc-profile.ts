@@ -6,10 +6,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const rawProfileLinks: Record<string, string> = {
-  T31_Demon_Hunter_Havoc:
-    "https://raw.githubusercontent.com/simulationcraft/simc/dragonflight/profiles/generators/Tier31/T31_Generate_Demon_Hunter.simc",
-  T31_Demon_Hunter_Vengeance:
-    "https://raw.githubusercontent.com/simulationcraft/simc/dragonflight/profiles/generators/Tier31/T31_Generate_Demon_Hunter.simc",
+  DF4_Demon_Hunter_Vengeance:
+    "https://raw.githubusercontent.com/simulationcraft/simc/dragonflight/profiles/generators/DF4/DF4_Generate_Demon_Hunter.simc",
 };
 
 const profilesToUpdate = Object.keys(rawProfileLinks);

@@ -11,7 +11,6 @@ import {
   getMatrix,
   getModifiedConfigMapping,
 } from "@topplethenun/simc-profile-variants-config";
-import { getGeneratorByName } from "@topplethenun/simc-profile-variants-generators";
 import { snakeToPascal } from "@topplethenun/simc-profile-variants-utils/strings";
 import { isPresent } from "@topplethenun/simc-profile-variants-utils/type-guards";
 
@@ -20,18 +19,12 @@ const __dirname = dirname(__filename);
 
 const configMapping: ConfigMapping = getModifiedConfigMapping(
   defaultConfigMapping,
-  (mapping) => {
-    mapping.T31_Demon_Hunter_Vengeance.matrix.generators =
-      mapping.T31_Demon_Hunter_Vengeance.matrix.generators.filter(
-        (generator) => generator.name !== "embellishments",
-      );
-    mapping.T31_Demon_Hunter_Vengeance_Crafted.matrix.generators = [
-      getGeneratorByName("embellishments"),
-      getGeneratorByName("weapons"),
-    ];
-    mapping.T31_Demon_Hunter_Vengeance_5p.matrix.generators = [
-      getGeneratorByName("embellishments"),
-    ];
+  () => {
+    // this is for later
+    // mapping.DF4_Demon_Hunter_Vengeance.matrix.generators =
+    //   mapping.DF4_Demon_Hunter_Vengeance.matrix.generators.filter(
+    //     (generator) => generator.name !== "embellishments",
+    //   );
   },
 );
 
@@ -51,7 +44,7 @@ async function writeTemplateToFile(
     encounterType,
     profile,
   });
-  const templateContents = [profile.includes("T32") ? "ptr=1" : null, generated]
+  const templateContents = [profile.includes("DF4") ? "ptr=1" : null, generated]
     .filter(isPresent)
     .join("\n\n");
 

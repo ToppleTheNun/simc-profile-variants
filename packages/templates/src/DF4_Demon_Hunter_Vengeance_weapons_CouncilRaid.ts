@@ -3,6 +3,8 @@ import { dedent } from "ts-dedent";
 
 /* eslint-disable camelcase -- Disabling because this needs to match simc. */
 export const DF4_Demon_Hunter_Vengeance_weapons_CouncilRaid = dedent` 
+  ptr=1
+  
   iterations=10000
   desired_targets=4
   max_time=300
@@ -30,191 +32,299 @@ export const DF4_Demon_Hunter_Vengeance_weapons_CouncilRaid = dedent`
   timeofday=day
   role=tank
   position=front
-  talents=BUkAAAAAAAAAAAAAAAAAAAAAAAASiEJCJIJBhIlkQiWiEJSIJplk0kkWSQAAAAAJJA
+  talents=BUkAAAAAAAAAAAAAAAAAAAAAAAAiIJJCJIJBhIlkQiWiEJSIJpkk0iESQAAAAAJJB
   
   
-  head=screaming_torchfiends_burning_scowl,id=207263,bonus_id=7187/6935/1520,gem_id=192919,enchant=incandescent_essence,ilevel=528
-  neck=elemental_lariat,id=193001,bonus_id=9500/9498/9405/8782/8960,gem_id=192919/192919/192919,crafted_stats=36/32,ilevel=525
-  shoulders=screaming_torchfiends_horned_memento,id=207261,bonus_id=7187/1520,ilevel=528
-  back=cloak_of_fading_echoes,id=134405,bonus_id=9499/7981/5868/657,ilevel=528
-  chest=screaming_torchfiends_binding,id=207266,bonus_id=7187/1520,enchant_id=6625,ilevel=528
-  wrists=verdant_sanctuary_bands,id=210206,bonus_id=7187/6935/1520,gem_id=192919,ilevel=528
-  hands=screaming_torchfiends_grasp,id=207264,bonus_id=7187/1520,ilevel=528
-  waist=belt_of_the_eternal_struggle,id=207874,bonus_id=9576/6935/1582,gem_id=192985,ilevel=528
-  legs=screaming_torchfiends_blazewraps,id=207262,bonus_id=7187/1520,enchant=frosted_armor_kit_3,ilevel=528
-  feet=slimy_expulsion_boots,id=193451,bonus_id=9500/9498/9405/8960,ilevel=525
-  finger1=band_of_burning_thorns,id=207159,bonus_id=7187/6935/1520,gem_id=192922,enchant=devotion_of_critical_strike_3,ilevel=528
-  finger2=signet_of_the_last_elder,id=207162,bonus_id=7187/6935/1520,gem_id=192922,enchant=devotion_of_critical_strike_3,ilevel=528
-  trinket1=augury_of_the_primal_flame,id=208614,bonus_id=7187/1527,ilevel=528
-  trinket2=cataclysmic_signet_brand,id=207166,bonus_id=7187/1520,ilevel=528
-  main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
-  off_hand=stormslash,id=193688,bonus_id=9576/1611,enchant=wafting_devotion_3,ilevel=528
+  head=screaming_torchfiends_burning_scowl,id=217228,bonus_id=10359/1491/6935,gem_id=192919,enchant=incandescent_essence
+  neck=amulet_of_eonars_chosen,id=208445,bonus_id=10359/1491/8782,gem_id=192919/192919/192919
+  shoulders=screaming_torchfiends_horned_memento,id=217230,bonus_id=10359/1491
+  back=voice_of_the_silent_star,id=204465,bonus_id=10359/1498/10884
+  chest=screaming_torchfiends_binding,id=217226,bonus_id=10359/1491,enchant_id=6625
+  wrists=verdant_sanctuary_bands,id=210206,bonus_id=10359/1491/6935,gem_id=192919
+  hands=screaming_torchfiends_grasp,id=217227,bonus_id=10359/1491
+  waist=cinch_of_forgotten_duty,id=193636,bonus_id=10359/1491/6935,gem_id=192985
+  legs=screaming_torchfiends_blazewraps,id=217229,bonus_id=10359/1491,enchant=frosted_armor_kit_3
+  feet=iceclimbers_cleats,id=195509,bonus_id=10359/1491
+  finger1=seal_of_diurnas_chosen,id=195480,bonus_id=10359/1491/6935,gem_id=192922,enchant=devotion_of_critical_strike_3
+  finger2=onyx_impostors_birthright,id=204398,bonus_id=10359/1491/6935,gem_id=192922,enchant=devotion_of_critical_strike_3
+  trinket1=augury_of_the_primal_flame,id=208614,bonus_id=10359/1491
+  trinket2=cataclysmic_signet_brand,id=207166,bonus_id=10359/1491
+  main_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=sophic_devotion_3
+  off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
   
-  profileset."Thorncaller (Sophic) / Gholak (Sophic)"+=main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
-  profileset."Thorncaller (Sophic) / Gholak (Sophic)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
+  profileset."Thorncaller (Sophic) / Gholak (Sophic)"+=main_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Thorncaller (Sophic) / Gholak (Sophic)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=sophic_devotion_3
   
-  profileset."Thorncaller (Sophic) / Gholak (Wafting)"+=main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
-  profileset."Thorncaller (Sophic) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
+  profileset."Thorncaller (Sophic) / Gholak (Wafting)"+=main_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Thorncaller (Sophic) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=wafting_devotion_3
   
-  profileset."Thorncaller (Sophic) / Stormslash (Sophic)"+=main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
-  profileset."Thorncaller (Sophic) / Stormslash (Sophic)"+=off_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=sophic_devotion_3,ilevel=528
+  profileset."Thorncaller (Sophic) / Stormslash (Sophic)"+=main_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Thorncaller (Sophic) / Stormslash (Sophic)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
   
-  profileset."Thorncaller (Sophic) / Stormslash (Wafting)"+=main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
-  profileset."Thorncaller (Sophic) / Stormslash (Wafting)"+=off_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=wafting_devotion_3,ilevel=528
+  profileset."Thorncaller (Sophic) / Stormslash (Wafting)"+=main_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Thorncaller (Sophic) / Stormslash (Wafting)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
   
-  profileset."Thorncaller (Sophic) / Crafted (Sophic)"+=main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
-  profileset."Thorncaller (Sophic) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
+  profileset."Thorncaller (Sophic) / Crafted (Sophic)"+=main_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Thorncaller (Sophic) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
   
-  profileset."Thorncaller (Sophic) / Crafted (Wafting)"+=main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
-  profileset."Thorncaller (Sophic) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
+  profileset."Thorncaller (Sophic) / Crafted (Wafting)"+=main_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Thorncaller (Sophic) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
   
-  profileset."Thorncaller (Wafting) / Gholak (Sophic)"+=main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
-  profileset."Thorncaller (Wafting) / Gholak (Sophic)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
+  profileset."Thorncaller (Sophic) / Double Time (Sophic)"+=main_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Thorncaller (Sophic) / Double Time (Sophic)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
   
-  profileset."Thorncaller (Wafting) / Gholak (Wafting)"+=main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
-  profileset."Thorncaller (Wafting) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
+  profileset."Thorncaller (Sophic) / Double Time (Wafting)"+=main_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Thorncaller (Sophic) / Double Time (Wafting)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
   
-  profileset."Thorncaller (Wafting) / Stormslash (Sophic)"+=main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
-  profileset."Thorncaller (Wafting) / Stormslash (Sophic)"+=off_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=sophic_devotion_3,ilevel=528
+  profileset."Thorncaller (Wafting) / Gholak (Sophic)"+=main_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Thorncaller (Wafting) / Gholak (Sophic)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=sophic_devotion_3
   
-  profileset."Thorncaller (Wafting) / Stormslash (Wafting)"+=main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
-  profileset."Thorncaller (Wafting) / Stormslash (Wafting)"+=off_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=wafting_devotion_3,ilevel=528
+  profileset."Thorncaller (Wafting) / Gholak (Wafting)"+=main_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Thorncaller (Wafting) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=wafting_devotion_3
   
-  profileset."Thorncaller (Wafting) / Crafted (Sophic)"+=main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
-  profileset."Thorncaller (Wafting) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
+  profileset."Thorncaller (Wafting) / Stormslash (Sophic)"+=main_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Thorncaller (Wafting) / Stormslash (Sophic)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
   
-  profileset."Thorncaller (Wafting) / Crafted (Wafting)"+=main_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
-  profileset."Thorncaller (Wafting) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
+  profileset."Thorncaller (Wafting) / Stormslash (Wafting)"+=main_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Thorncaller (Wafting) / Stormslash (Wafting)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
   
-  profileset."Gholak (Sophic) / Thorncaller (Sophic)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
-  profileset."Gholak (Sophic) / Thorncaller (Sophic)"+=off_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
+  profileset."Thorncaller (Wafting) / Crafted (Sophic)"+=main_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Thorncaller (Wafting) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
   
-  profileset."Gholak (Sophic) / Thorncaller (Wafting)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
-  profileset."Gholak (Sophic) / Thorncaller (Wafting)"+=off_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
+  profileset."Thorncaller (Wafting) / Crafted (Wafting)"+=main_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Thorncaller (Wafting) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
   
-  profileset."Gholak (Sophic) / Stormslash (Sophic)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
-  profileset."Gholak (Sophic) / Stormslash (Sophic)"+=off_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=sophic_devotion_3,ilevel=528
+  profileset."Thorncaller (Wafting) / Double Time (Sophic)"+=main_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Thorncaller (Wafting) / Double Time (Sophic)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
   
-  profileset."Gholak (Sophic) / Stormslash (Wafting)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
-  profileset."Gholak (Sophic) / Stormslash (Wafting)"+=off_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=wafting_devotion_3,ilevel=528
+  profileset."Thorncaller (Wafting) / Double Time (Wafting)"+=main_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Thorncaller (Wafting) / Double Time (Wafting)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
   
-  profileset."Gholak (Sophic) / Crafted (Sophic)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
-  profileset."Gholak (Sophic) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
+  profileset."Gholak (Sophic) / Thorncaller (Sophic)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Gholak (Sophic) / Thorncaller (Sophic)"+=off_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=sophic_devotion_3
   
-  profileset."Gholak (Sophic) / Crafted (Wafting)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
-  profileset."Gholak (Sophic) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
+  profileset."Gholak (Sophic) / Thorncaller (Wafting)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Gholak (Sophic) / Thorncaller (Wafting)"+=off_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=wafting_devotion_3
   
-  profileset."Gholak (Wafting) / Thorncaller (Sophic)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
-  profileset."Gholak (Wafting) / Thorncaller (Sophic)"+=off_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
+  profileset."Gholak (Sophic) / Stormslash (Sophic)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Gholak (Sophic) / Stormslash (Sophic)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
   
-  profileset."Gholak (Wafting) / Thorncaller (Wafting)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
-  profileset."Gholak (Wafting) / Thorncaller (Wafting)"+=off_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
+  profileset."Gholak (Sophic) / Stormslash (Wafting)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Gholak (Sophic) / Stormslash (Wafting)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
   
-  profileset."Gholak (Wafting) / Stormslash (Sophic)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
-  profileset."Gholak (Wafting) / Stormslash (Sophic)"+=off_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=sophic_devotion_3,ilevel=528
+  profileset."Gholak (Sophic) / Crafted (Sophic)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Gholak (Sophic) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
   
-  profileset."Gholak (Wafting) / Stormslash (Wafting)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
-  profileset."Gholak (Wafting) / Stormslash (Wafting)"+=off_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=wafting_devotion_3,ilevel=528
+  profileset."Gholak (Sophic) / Crafted (Wafting)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Gholak (Sophic) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
   
-  profileset."Gholak (Wafting) / Crafted (Sophic)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
-  profileset."Gholak (Wafting) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
+  profileset."Gholak (Sophic) / Double Time (Sophic)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Gholak (Sophic) / Double Time (Sophic)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
   
-  profileset."Gholak (Wafting) / Crafted (Wafting)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
-  profileset."Gholak (Wafting) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
+  profileset."Gholak (Sophic) / Double Time (Wafting)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Gholak (Sophic) / Double Time (Wafting)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
   
-  profileset."Stormslash (Sophic) / Thorncaller (Sophic)"+=main_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=sophic_devotion_3,ilevel=528
-  profileset."Stormslash (Sophic) / Thorncaller (Sophic)"+=off_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
+  profileset."Gholak (Wafting) / Thorncaller (Sophic)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Gholak (Wafting) / Thorncaller (Sophic)"+=off_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=sophic_devotion_3
   
-  profileset."Stormslash (Sophic) / Thorncaller (Wafting)"+=main_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=sophic_devotion_3,ilevel=528
-  profileset."Stormslash (Sophic) / Thorncaller (Wafting)"+=off_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
+  profileset."Gholak (Wafting) / Thorncaller (Wafting)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Gholak (Wafting) / Thorncaller (Wafting)"+=off_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=wafting_devotion_3
   
-  profileset."Stormslash (Sophic) / Gholak (Sophic)"+=main_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=sophic_devotion_3,ilevel=528
-  profileset."Stormslash (Sophic) / Gholak (Sophic)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
+  profileset."Gholak (Wafting) / Stormslash (Sophic)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Gholak (Wafting) / Stormslash (Sophic)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
   
-  profileset."Stormslash (Sophic) / Gholak (Wafting)"+=main_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=sophic_devotion_3,ilevel=528
-  profileset."Stormslash (Sophic) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
+  profileset."Gholak (Wafting) / Stormslash (Wafting)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Gholak (Wafting) / Stormslash (Wafting)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
   
-  profileset."Stormslash (Sophic) / Stormslash (Sophic)"+=main_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=sophic_devotion_3,ilevel=528
-  profileset."Stormslash (Sophic) / Stormslash (Sophic)"+=off_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=sophic_devotion_3,ilevel=528
+  profileset."Gholak (Wafting) / Crafted (Sophic)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Gholak (Wafting) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
   
-  profileset."Stormslash (Sophic) / Stormslash (Wafting)"+=main_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=sophic_devotion_3,ilevel=528
-  profileset."Stormslash (Sophic) / Stormslash (Wafting)"+=off_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=wafting_devotion_3,ilevel=528
+  profileset."Gholak (Wafting) / Crafted (Wafting)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Gholak (Wafting) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
   
-  profileset."Stormslash (Sophic) / Crafted (Sophic)"+=main_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=sophic_devotion_3,ilevel=528
-  profileset."Stormslash (Sophic) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
+  profileset."Gholak (Wafting) / Double Time (Sophic)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Gholak (Wafting) / Double Time (Sophic)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
   
-  profileset."Stormslash (Sophic) / Crafted (Wafting)"+=main_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=sophic_devotion_3,ilevel=528
-  profileset."Stormslash (Sophic) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
+  profileset."Gholak (Wafting) / Double Time (Wafting)"+=main_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Gholak (Wafting) / Double Time (Wafting)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
   
-  profileset."Stormslash (Wafting) / Thorncaller (Sophic)"+=main_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=wafting_devotion_3,ilevel=528
-  profileset."Stormslash (Wafting) / Thorncaller (Sophic)"+=off_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
+  profileset."Stormslash (Sophic) / Thorncaller (Sophic)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Stormslash (Sophic) / Thorncaller (Sophic)"+=off_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=sophic_devotion_3
   
-  profileset."Stormslash (Wafting) / Thorncaller (Wafting)"+=main_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=wafting_devotion_3,ilevel=528
-  profileset."Stormslash (Wafting) / Thorncaller (Wafting)"+=off_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
+  profileset."Stormslash (Sophic) / Thorncaller (Wafting)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Stormslash (Sophic) / Thorncaller (Wafting)"+=off_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=wafting_devotion_3
   
-  profileset."Stormslash (Wafting) / Gholak (Sophic)"+=main_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=wafting_devotion_3,ilevel=528
-  profileset."Stormslash (Wafting) / Gholak (Sophic)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
+  profileset."Stormslash (Sophic) / Gholak (Sophic)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Stormslash (Sophic) / Gholak (Sophic)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=sophic_devotion_3
   
-  profileset."Stormslash (Wafting) / Gholak (Wafting)"+=main_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=wafting_devotion_3,ilevel=528
-  profileset."Stormslash (Wafting) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
+  profileset."Stormslash (Sophic) / Gholak (Wafting)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Stormslash (Sophic) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=wafting_devotion_3
   
-  profileset."Stormslash (Wafting) / Stormslash (Sophic)"+=main_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=wafting_devotion_3,ilevel=528
-  profileset."Stormslash (Wafting) / Stormslash (Sophic)"+=off_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=sophic_devotion_3,ilevel=528
+  profileset."Stormslash (Sophic) / Stormslash (Sophic)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Stormslash (Sophic) / Stormslash (Sophic)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
   
-  profileset."Stormslash (Wafting) / Stormslash (Wafting)"+=main_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=wafting_devotion_3,ilevel=528
-  profileset."Stormslash (Wafting) / Stormslash (Wafting)"+=off_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=wafting_devotion_3,ilevel=528
+  profileset."Stormslash (Sophic) / Stormslash (Wafting)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Stormslash (Sophic) / Stormslash (Wafting)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
   
-  profileset."Stormslash (Wafting) / Crafted (Sophic)"+=main_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=wafting_devotion_3,ilevel=528
-  profileset."Stormslash (Wafting) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
+  profileset."Stormslash (Sophic) / Crafted (Sophic)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Stormslash (Sophic) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
   
-  profileset."Stormslash (Wafting) / Crafted (Wafting)"+=main_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=wafting_devotion_3,ilevel=528
-  profileset."Stormslash (Wafting) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
+  profileset."Stormslash (Sophic) / Crafted (Wafting)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Stormslash (Sophic) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
   
-  profileset."Crafted (Sophic) / Thorncaller (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
-  profileset."Crafted (Sophic) / Thorncaller (Sophic)"+=off_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
+  profileset."Stormslash (Sophic) / Double Time (Sophic)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Stormslash (Sophic) / Double Time (Sophic)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
   
-  profileset."Crafted (Sophic) / Thorncaller (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
-  profileset."Crafted (Sophic) / Thorncaller (Wafting)"+=off_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
+  profileset."Stormslash (Sophic) / Double Time (Wafting)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
+  profileset."Stormslash (Sophic) / Double Time (Wafting)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
   
-  profileset."Crafted (Sophic) / Gholak (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
-  profileset."Crafted (Sophic) / Gholak (Sophic)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
+  profileset."Stormslash (Wafting) / Thorncaller (Sophic)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Stormslash (Wafting) / Thorncaller (Sophic)"+=off_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=sophic_devotion_3
   
-  profileset."Crafted (Sophic) / Gholak (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
-  profileset."Crafted (Sophic) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
+  profileset."Stormslash (Wafting) / Thorncaller (Wafting)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Stormslash (Wafting) / Thorncaller (Wafting)"+=off_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=wafting_devotion_3
   
-  profileset."Crafted (Sophic) / Stormslash (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
-  profileset."Crafted (Sophic) / Stormslash (Sophic)"+=off_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=sophic_devotion_3,ilevel=528
+  profileset."Stormslash (Wafting) / Gholak (Sophic)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Stormslash (Wafting) / Gholak (Sophic)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=sophic_devotion_3
   
-  profileset."Crafted (Sophic) / Stormslash (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
-  profileset."Crafted (Sophic) / Stormslash (Wafting)"+=off_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=wafting_devotion_3,ilevel=528
+  profileset."Stormslash (Wafting) / Gholak (Wafting)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Stormslash (Wafting) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=wafting_devotion_3
   
-  profileset."Crafted (Sophic) / Crafted (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
-  profileset."Crafted (Sophic) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
+  profileset."Stormslash (Wafting) / Stormslash (Sophic)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Stormslash (Wafting) / Stormslash (Sophic)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
   
-  profileset."Crafted (Sophic) / Crafted (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
-  profileset."Crafted (Sophic) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
+  profileset."Stormslash (Wafting) / Stormslash (Wafting)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Stormslash (Wafting) / Stormslash (Wafting)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
   
-  profileset."Crafted (Wafting) / Thorncaller (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
-  profileset."Crafted (Wafting) / Thorncaller (Sophic)"+=off_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
+  profileset."Stormslash (Wafting) / Crafted (Sophic)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Stormslash (Wafting) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
   
-  profileset."Crafted (Wafting) / Thorncaller (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
-  profileset."Crafted (Wafting) / Thorncaller (Wafting)"+=off_hand=thorncaller_claw,id=207784,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
+  profileset."Stormslash (Wafting) / Crafted (Wafting)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Stormslash (Wafting) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
   
-  profileset."Crafted (Wafting) / Gholak (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
-  profileset."Crafted (Wafting) / Gholak (Sophic)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=sophic_devotion_3,ilevel=528
+  profileset."Stormslash (Wafting) / Double Time (Sophic)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Stormslash (Wafting) / Double Time (Sophic)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
   
-  profileset."Crafted (Wafting) / Gholak (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
-  profileset."Crafted (Wafting) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=7187/1520,enchant=wafting_devotion_3,ilevel=528
+  profileset."Stormslash (Wafting) / Double Time (Wafting)"+=main_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
+  profileset."Stormslash (Wafting) / Double Time (Wafting)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
   
-  profileset."Crafted (Wafting) / Stormslash (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
-  profileset."Crafted (Wafting) / Stormslash (Sophic)"+=off_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=sophic_devotion_3,ilevel=528
+  profileset."Crafted (Sophic) / Thorncaller (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Sophic) / Thorncaller (Sophic)"+=off_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=sophic_devotion_3
   
-  profileset."Crafted (Wafting) / Stormslash (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
-  profileset."Crafted (Wafting) / Stormslash (Wafting)"+=off_hand=stormslash,id=193688,bonus_id=6646/6536/1611,enchant=wafting_devotion_3,ilevel=528
+  profileset."Crafted (Sophic) / Thorncaller (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Sophic) / Thorncaller (Wafting)"+=off_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=wafting_devotion_3
   
-  profileset."Crafted (Wafting) / Crafted (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
-  profileset."Crafted (Wafting) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
+  profileset."Crafted (Sophic) / Gholak (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Sophic) / Gholak (Sophic)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=sophic_devotion_3
   
-  profileset."Crafted (Wafting) / Crafted (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
-  profileset."Crafted (Wafting) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=9500/9498/9405,enchant=sophic_devotion_3,crafted_stats=36/32,ilevel=528
+  profileset."Crafted (Sophic) / Gholak (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Sophic) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=wafting_devotion_3
+  
+  profileset."Crafted (Sophic) / Stormslash (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Sophic) / Stormslash (Sophic)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
+  
+  profileset."Crafted (Sophic) / Stormslash (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Sophic) / Stormslash (Wafting)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
+  
+  profileset."Crafted (Sophic) / Crafted (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Sophic) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  
+  profileset."Crafted (Sophic) / Crafted (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Sophic) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  
+  profileset."Crafted (Sophic) / Double Time (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Sophic) / Double Time (Sophic)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
+  
+  profileset."Crafted (Sophic) / Double Time (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Sophic) / Double Time (Wafting)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
+  
+  profileset."Crafted (Wafting) / Thorncaller (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Wafting) / Thorncaller (Sophic)"+=off_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=sophic_devotion_3
+  
+  profileset."Crafted (Wafting) / Thorncaller (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Wafting) / Thorncaller (Wafting)"+=off_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=wafting_devotion_3
+  
+  profileset."Crafted (Wafting) / Gholak (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Wafting) / Gholak (Sophic)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=sophic_devotion_3
+  
+  profileset."Crafted (Wafting) / Gholak (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Wafting) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=wafting_devotion_3
+  
+  profileset."Crafted (Wafting) / Stormslash (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Wafting) / Stormslash (Sophic)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
+  
+  profileset."Crafted (Wafting) / Stormslash (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Wafting) / Stormslash (Wafting)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
+  
+  profileset."Crafted (Wafting) / Crafted (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Wafting) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  
+  profileset."Crafted (Wafting) / Crafted (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Wafting) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  
+  profileset."Crafted (Wafting) / Double Time (Sophic)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Wafting) / Double Time (Sophic)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
+  
+  profileset."Crafted (Wafting) / Double Time (Wafting)"+=main_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  profileset."Crafted (Wafting) / Double Time (Wafting)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
+  
+  profileset."Double Time (Sophic) / Thorncaller (Sophic)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
+  profileset."Double Time (Sophic) / Thorncaller (Sophic)"+=off_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=sophic_devotion_3
+  
+  profileset."Double Time (Sophic) / Thorncaller (Wafting)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
+  profileset."Double Time (Sophic) / Thorncaller (Wafting)"+=off_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=wafting_devotion_3
+  
+  profileset."Double Time (Sophic) / Gholak (Sophic)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
+  profileset."Double Time (Sophic) / Gholak (Sophic)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=sophic_devotion_3
+  
+  profileset."Double Time (Sophic) / Gholak (Wafting)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
+  profileset."Double Time (Sophic) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=wafting_devotion_3
+  
+  profileset."Double Time (Sophic) / Stormslash (Sophic)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
+  profileset."Double Time (Sophic) / Stormslash (Sophic)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
+  
+  profileset."Double Time (Sophic) / Stormslash (Wafting)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
+  profileset."Double Time (Sophic) / Stormslash (Wafting)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
+  
+  profileset."Double Time (Sophic) / Crafted (Sophic)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
+  profileset."Double Time (Sophic) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  
+  profileset."Double Time (Sophic) / Crafted (Wafting)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
+  profileset."Double Time (Sophic) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  
+  profileset."Double Time (Sophic) / Double Time (Sophic)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
+  profileset."Double Time (Sophic) / Double Time (Sophic)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
+  
+  profileset."Double Time (Sophic) / Double Time (Wafting)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
+  profileset."Double Time (Sophic) / Double Time (Wafting)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
+  
+  profileset."Double Time (Wafting) / Thorncaller (Sophic)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
+  profileset."Double Time (Wafting) / Thorncaller (Sophic)"+=off_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=sophic_devotion_3
+  
+  profileset."Double Time (Wafting) / Thorncaller (Wafting)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
+  profileset."Double Time (Wafting) / Thorncaller (Wafting)"+=off_hand=thorncaller_claw,id=207784,bonus_id=10359/1491,enchant=wafting_devotion_3
+  
+  profileset."Double Time (Wafting) / Gholak (Sophic)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
+  profileset."Double Time (Wafting) / Gholak (Sophic)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=sophic_devotion_3
+  
+  profileset."Double Time (Wafting) / Gholak (Wafting)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
+  profileset."Double Time (Wafting) / Gholak (Wafting)"+=off_hand=gholak_the_final_conflagration,id=207786,bonus_id=10359/1491,enchant=wafting_devotion_3
+  
+  profileset."Double Time (Wafting) / Stormslash (Sophic)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
+  profileset."Double Time (Wafting) / Stormslash (Sophic)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=sophic_devotion_3
+  
+  profileset."Double Time (Wafting) / Stormslash (Wafting)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
+  profileset."Double Time (Wafting) / Stormslash (Wafting)"+=off_hand=stormslash,id=193688,bonus_id=10359/1491,enchant=wafting_devotion_3
+  
+  profileset."Double Time (Wafting) / Crafted (Sophic)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
+  profileset."Double Time (Wafting) / Crafted (Sophic)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  
+  profileset."Double Time (Wafting) / Crafted (Wafting)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
+  profileset."Double Time (Wafting) / Crafted (Wafting)"+=off_hand=primal_molten_warglaive,id=190508,bonus_id=10359/1485,enchant=sophic_devotion_3,crafted_stats=36/32
+  
+  profileset."Double Time (Wafting) / Double Time (Sophic)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
+  profileset."Double Time (Wafting) / Double Time (Sophic)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=sophic_devotion_3
+  
+  profileset."Double Time (Wafting) / Double Time (Wafting)"+=main_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
+  profileset."Double Time (Wafting) / Double Time (Wafting)"+=off_hand=double_time,id=207991,bonus_id=10359/1478,enchant=wafting_devotion_3
   `;
