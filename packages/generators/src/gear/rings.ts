@@ -20,63 +20,63 @@ export const gear = ringEnchants(
     {
       name: "Eggnog",
       options:
-        "seal_of_diurnas_chosen,id=195480,bonus_id=10359/1491/6935,gem_id=192922",
+        "seal_of_diurnas_chosen,id=195480,bonus_id=10359/1488/6935,gem_id=192922",
       slot: "finger1",
       uniqueId: 195480,
     },
     {
       name: "Onyx",
       options:
-        "onyx_impostors_birthright,id=204398,bonus_id=10359/1491/6935,gem_id=192922",
+        "onyx_impostors_birthright,id=204398,bonus_id=10359/1488/6935,gem_id=192922",
       slot: "finger1",
       uniqueId: 204398,
     },
     {
       name: "Unstable",
       options:
-        "unstable_arcane_loop,id=193633,bonus_id=10359/1491/6935,gem_id=192922",
+        "unstable_arcane_loop,id=193633,bonus_id=10359/1488/6935,gem_id=192922",
       slot: "finger1",
       uniqueId: 193633,
     },
     {
       name: "Eternal",
       options:
-        "eternal_sentry_ring,id=193804,bonus_id=10359/1491/6935,gem_id=192922",
+        "eternal_sentry_ring,id=193804,bonus_id=10359/1488/6935,gem_id=192922",
       slot: "finger1",
       uniqueId: 193804,
     },
     {
       name: "Platinum",
       options:
-        "platinum_star_band,id=193708,bonus_id=10359/1491/6935,gem_id=192922",
+        "platinum_star_band,id=193708,bonus_id=10359/1488/6935,gem_id=192922",
       slot: "finger1",
       uniqueId: 193708,
     },
     {
       name: "Bloodied",
       options:
-        "bloodied_wedding_ring,id=193671,bonus_id=10359/1491/6935,gem_id=192922",
+        "bloodied_wedding_ring,id=193671,bonus_id=10359/1488/6935,gem_id=192922",
       slot: "finger1",
       uniqueId: 193671,
     },
     {
       name: "Circle",
       options:
-        "circle_of_ascended_frost,id=193731,bonus_id=10359/1491/6935,gem_id=192922",
+        "circle_of_ascended_frost,id=193731,bonus_id=10359/1488/6935,gem_id=192922",
       slot: "finger1",
       uniqueId: 193731,
     },
     {
       name: "Scalebane",
       options:
-        "scalebane_signet,id=193768,bonus_id=10359/1491/6935,gem_id=192922",
+        "scalebane_signet,id=193768,bonus_id=10359/1488/6935,gem_id=192922",
       slot: "finger1",
       uniqueId: 193768,
     },
     {
       name: "Thunderous",
       options:
-        "thunderous_downburst_ring,id=193696,bonus_id=10359/1491/6935,gem_id=192922",
+        "thunderous_downburst_ring,id=193696,bonus_id=10359/1488/6935,gem_id=192922",
       slot: "finger1",
       uniqueId: 193696,
     },

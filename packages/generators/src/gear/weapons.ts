@@ -6,19 +6,19 @@ export const gear = sophicWafting(
     {
       name: "Thorncaller",
       slot: "main_hand",
-      options: "thorncaller_claw,id=207784,bonus_id=10359/1491",
+      options: "thorncaller_claw,id=207784,bonus_id=10359/1488",
       uniqueId: 207784,
     },
     {
       name: "Gholak",
       slot: "main_hand",
-      options: "gholak_the_final_conflagration,id=207786,bonus_id=10359/1491",
+      options: "gholak_the_final_conflagration,id=207786,bonus_id=10359/1488",
       uniqueId: 207786,
     },
     {
       name: "Stormslash",
       slot: "main_hand",
-      options: "stormslash,id=193688,bonus_id=10359/1491",
+      options: "stormslash,id=193688,bonus_id=10359/1488",
     },
     {
       name: "Crafted",

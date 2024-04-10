@@ -14,7 +14,8 @@
       "dependsOn": ["^update"]
     },
     "update": {
-      "dependsOn": ["^update"]
+      "dependsOn": ["^update"],
+      "cache": false
     }
   }
 }
