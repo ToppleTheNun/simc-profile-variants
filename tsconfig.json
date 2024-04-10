@@ -6,9 +6,6 @@
   ],
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {
-      "@topplethenun/*": ["sims/*/src"]
-    },
     "noEmit": true,
     "allowImportingTsExtensions": true,
     "types": ["@total-typescript/ts-reset", "@types/node"]

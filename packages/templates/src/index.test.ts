@@ -4,13 +4,13 @@ import { getTemplate, getTemplateByName } from "./index.ts";
 
 test("getTemplateByName finds something", ({ expect }) => {
   expect(
-    getTemplateByName("T31_Demon_Hunter_Vengeance_rings_SingleTargetRaid"),
+    getTemplateByName("DF4_Demon_Hunter_Vengeance_rings_SingleTargetRaid"),
   ).toBeTruthy();
 });
 
 test("getTemplate finds something given a good value", ({ expect }) => {
   const template = getTemplate({
-    profile: "T31_Demon_Hunter_Vengeance",
+    profile: "DF4_Demon_Hunter_Vengeance",
     encounterType: "singleTargetRaid",
     generator: "rings",
   });
@@ -21,7 +21,7 @@ test("getTemplate finds something given a good value", ({ expect }) => {
 test("getTemplate finds nothing given a bad value", ({ expect }) => {
   expect(
     getTemplate({
-      profile: "T31_Demon_Hunter_Vengeance",
+      profile: "DF4_Demon_Hunter_Vengeance",
       encounterType: "singleTargetRaid",
       generator: "embellishments",
     }),

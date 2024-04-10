@@ -29,7 +29,6 @@
     "./DF4_Demon_Hunter_Vengeance_weapons_MythicPlusLargePack": "./src/DF4_Demon_Hunter_Vengeance_weapons_MythicPlusLargePack.ts",
     "./DF4_Demon_Hunter_Vengeance_weapons_MythicPlusSmallPack": "./src/DF4_Demon_Hunter_Vengeance_weapons_MythicPlusSmallPack.ts",
     "./DF4_Demon_Hunter_Vengeance_weapons_SingleTargetRaid": "./src/DF4_Demon_Hunter_Vengeance_weapons_SingleTargetRaid.ts",
-    "./index.test": "./src/index.test.ts",
     ".": "./src/index.ts"
   },
   "files": [

@@ -18,6 +18,7 @@ async function getExports() {
   const directoryContents = await readdir(join(directory, "src"));
   return directoryContents
     .filter((item) => item.endsWith(".ts"))
+    .filter((item) => !item.endsWith(".test.ts"))
     .map((file) => ({ fileName: file, baseName: file.replace(".ts", "") }))
     .map((file) => ({
       path: `./src/${file.fileName}`,
