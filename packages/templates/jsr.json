@@ -1,6 +1,6 @@
 {
   "name": "@topplethenun/simc-profile-variants-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "exports": {
     "./DF4_Demon_Hunter_Vengeance_embellishments_CouncilRaid": "./src/DF4_Demon_Hunter_Vengeance_embellishments_CouncilRaid.ts",
     "./DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusLargePack": "./src/DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusLargePack.ts",

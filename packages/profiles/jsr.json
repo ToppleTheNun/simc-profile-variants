@@ -1,6 +1,6 @@
 {
   "name": "@topplethenun/simc-profile-variants-profiles",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "exports": {
     "./DF4_Demon_Hunter_Vengeance": "./src/DF4_Demon_Hunter_Vengeance.ts",
     ".": "./src/index.ts"
