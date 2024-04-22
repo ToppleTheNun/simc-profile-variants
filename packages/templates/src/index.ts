@@ -7,10 +7,10 @@ import {
 } from "@topplethenun/simc-profile-variants-generators";
 import { type Profile } from "@topplethenun/simc-profile-variants-profiles";
 import { snakeToPascal } from "@topplethenun/simc-profile-variants-utils/strings";
-import { DF4_Demon_Hunter_Vengeance_embellishments_CouncilRaid as DF4DemonHunterVengeanceEmbellishmentsCouncilRaid } from "./DF4_Demon_Hunter_Vengeance_embellishments_CouncilRaid.ts";
-import { DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusLargePack as DF4DemonHunterVengeanceEmbellishmentsMythicPlusLargePack } from "./DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusLargePack.ts";
-import { DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusSmallPack as DF4DemonHunterVengeanceEmbellishmentsMythicPlusSmallPack } from "./DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusSmallPack.ts";
-import { DF4_Demon_Hunter_Vengeance_embellishments_SingleTargetRaid as DF4DemonHunterVengeanceEmbellishmentsSingleTargetRaid } from "./DF4_Demon_Hunter_Vengeance_embellishments_SingleTargetRaid.ts";
+import { DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_CouncilRaid as DF4DemonHunterVengeanceNoCraftedEmbellishmentsCouncilRaid } from "./DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_CouncilRaid.ts";
+import { DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_MythicPlusLargePack as DF4DemonHunterVengeanceNoCraftedEmbellishmentsMythicPlusLargePack } from "./DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_MythicPlusLargePack.ts";
+import { DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_MythicPlusSmallPack as DF4DemonHunterVengeanceNoCraftedEmbellishmentsMythicPlusSmallPack } from "./DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_MythicPlusSmallPack.ts";
+import { DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_SingleTargetRaid as DF4DemonHunterVengeanceNoCraftedEmbellishmentsSingleTargetRaid } from "./DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_SingleTargetRaid.ts";
 import { DF4_Demon_Hunter_Vengeance_rings_CouncilRaid as DF4DemonHunterVengeanceRingsCouncilRaid } from "./DF4_Demon_Hunter_Vengeance_rings_CouncilRaid.ts";
 import { DF4_Demon_Hunter_Vengeance_rings_MythicPlusLargePack as DF4DemonHunterVengeanceRingsMythicPlusLargePack } from "./DF4_Demon_Hunter_Vengeance_rings_MythicPlusLargePack.ts";
 import { DF4_Demon_Hunter_Vengeance_rings_MythicPlusSmallPack as DF4DemonHunterVengeanceRingsMythicPlusSmallPack } from "./DF4_Demon_Hunter_Vengeance_rings_MythicPlusSmallPack.ts";
@@ -25,14 +25,14 @@ import { DF4_Demon_Hunter_Vengeance_weapons_MythicPlusSmallPack as DF4DemonHunte
 import { DF4_Demon_Hunter_Vengeance_weapons_SingleTargetRaid as DF4DemonHunterVengeanceWeaponsSingleTargetRaid } from "./DF4_Demon_Hunter_Vengeance_weapons_SingleTargetRaid.ts";
 
 /* eslint-disable camelcase -- Disabling because this needs to match simc. */
-export const DF4_Demon_Hunter_Vengeance_embellishments_CouncilRaid: string =
-  DF4DemonHunterVengeanceEmbellishmentsCouncilRaid;
-export const DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusLargePack: string =
-  DF4DemonHunterVengeanceEmbellishmentsMythicPlusLargePack;
-export const DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusSmallPack: string =
-  DF4DemonHunterVengeanceEmbellishmentsMythicPlusSmallPack;
-export const DF4_Demon_Hunter_Vengeance_embellishments_SingleTargetRaid: string =
-  DF4DemonHunterVengeanceEmbellishmentsSingleTargetRaid;
+export const DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_CouncilRaid: string =
+  DF4DemonHunterVengeanceNoCraftedEmbellishmentsCouncilRaid;
+export const DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_MythicPlusLargePack: string =
+  DF4DemonHunterVengeanceNoCraftedEmbellishmentsMythicPlusLargePack;
+export const DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_MythicPlusSmallPack: string =
+  DF4DemonHunterVengeanceNoCraftedEmbellishmentsMythicPlusSmallPack;
+export const DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_SingleTargetRaid: string =
+  DF4DemonHunterVengeanceNoCraftedEmbellishmentsSingleTargetRaid;
 export const DF4_Demon_Hunter_Vengeance_rings_CouncilRaid: string =
   DF4DemonHunterVengeanceRingsCouncilRaid;
 export const DF4_Demon_Hunter_Vengeance_rings_MythicPlusLargePack: string =
@@ -60,10 +60,10 @@ export const DF4_Demon_Hunter_Vengeance_weapons_SingleTargetRaid: string =
 /* eslint-enable camelcase -- Enabling because the rest does not need to match simc. */
 
 export const templates = [
-  "DF4_Demon_Hunter_Vengeance_embellishments_CouncilRaid",
-  "DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusLargePack",
-  "DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusSmallPack",
-  "DF4_Demon_Hunter_Vengeance_embellishments_SingleTargetRaid",
+  "DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_CouncilRaid",
+  "DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_MythicPlusLargePack",
+  "DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_MythicPlusSmallPack",
+  "DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_SingleTargetRaid",
   "DF4_Demon_Hunter_Vengeance_rings_CouncilRaid",
   "DF4_Demon_Hunter_Vengeance_rings_MythicPlusLargePack",
   "DF4_Demon_Hunter_Vengeance_rings_MythicPlusSmallPack",
@@ -83,10 +83,10 @@ export const isTemplate = (s: unknown): s is Template =>
 
 const templateMapping: Record<Template, string> = {
   /* eslint-disable camelcase -- Disabling because this needs to match simc. */
-  DF4_Demon_Hunter_Vengeance_embellishments_CouncilRaid,
-  DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusLargePack,
-  DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusSmallPack,
-  DF4_Demon_Hunter_Vengeance_embellishments_SingleTargetRaid,
+  DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_CouncilRaid,
+  DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_MythicPlusLargePack,
+  DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_MythicPlusSmallPack,
+  DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_SingleTargetRaid,
   DF4_Demon_Hunter_Vengeance_rings_CouncilRaid,
   DF4_Demon_Hunter_Vengeance_rings_MythicPlusLargePack,
   DF4_Demon_Hunter_Vengeance_rings_MythicPlusSmallPack,

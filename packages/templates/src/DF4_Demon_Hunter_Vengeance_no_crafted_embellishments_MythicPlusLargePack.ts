@@ -2,7 +2,7 @@
 import { dedent } from "ts-dedent";
 
 /* eslint-disable camelcase -- Disabling because this needs to match simc. */
-export const DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusLargePack = dedent` 
+export const DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_MythicPlusLargePack = dedent` 
   ptr=1
   
   iterations=10000
@@ -40,11 +40,11 @@ export const DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusLargePack = ded
   shoulders=screaming_torchfiends_horned_memento,id=217230,bonus_id=10359/1491
   back=voice_of_the_silent_star,id=204465,bonus_id=10359/1495/10884
   chest=screaming_torchfiends_binding,id=217226,bonus_id=10359/1488,enchant_id=6625
-  wrists=lifebound_bindings,id=193419,bonus_id=9379/10359/1485/6935,gem_id=192945,crafted_stats=36/32
+  wrists=verdant_sanctuary_bands,id=210206,bonus_id=10359/1491/6935,gem_id=192919
   hands=screaming_torchfiends_grasp,id=217227,bonus_id=10359/1488
   waist=elders_volcanic_binding,id=202655,bonus_id=10359/1488/6935,gem_id=192985
   legs=loathsome_thunderhosen,id=195530,bonus_id=10359/1488,enchant=frosted_armor_kit_3
-  feet=lifebound_boots,id=193398,bonus_id=9379/10359/1485,crafted_stats=36/32
+  feet=iceclimbers_cleats,id=195509,bonus_id=10359/1491
   finger1=seal_of_diurnas_chosen,id=195480,bonus_id=10359/1488/6935,gem_id=192922,enchant=devotion_of_haste_3
   finger2=onyx_impostors_birthright,id=204398,bonus_id=10359/1488/6935,gem_id=192922,enchant=devotion_of_versatility_3
   trinket1=elementium_pocket_anvil,id=202617,bonus_id=10359/1488

@@ -19,12 +19,16 @@ const __dirname = dirname(__filename);
 
 const configMapping: ConfigMapping = getModifiedConfigMapping(
   defaultConfigMapping,
-  () => {
+  (mapping) => {
     // this is for later
-    // mapping.DF4_Demon_Hunter_Vengeance.matrix.generators =
-    //   mapping.DF4_Demon_Hunter_Vengeance.matrix.generators.filter(
-    //     (generator) => generator.name !== "embellishments",
-    //   );
+    mapping.DF4_Demon_Hunter_Vengeance.matrix.generators =
+      mapping.DF4_Demon_Hunter_Vengeance.matrix.generators.filter(
+        (generator) => generator.name !== "embellishments",
+      );
+    mapping.DF4_Demon_Hunter_Vengeance_no_crafted.matrix.generators =
+      mapping.DF4_Demon_Hunter_Vengeance_no_crafted.matrix.generators.filter(
+        (generator) => generator.name === "embellishments",
+      );
   },
 );
 

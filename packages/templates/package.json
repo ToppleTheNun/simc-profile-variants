@@ -13,10 +13,10 @@
     "node": ">= 20"
   },
   "exports": {
-    "./DF4_Demon_Hunter_Vengeance_embellishments_CouncilRaid": "./src/DF4_Demon_Hunter_Vengeance_embellishments_CouncilRaid.ts",
-    "./DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusLargePack": "./src/DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusLargePack.ts",
-    "./DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusSmallPack": "./src/DF4_Demon_Hunter_Vengeance_embellishments_MythicPlusSmallPack.ts",
-    "./DF4_Demon_Hunter_Vengeance_embellishments_SingleTargetRaid": "./src/DF4_Demon_Hunter_Vengeance_embellishments_SingleTargetRaid.ts",
+    "./DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_CouncilRaid": "./src/DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_CouncilRaid.ts",
+    "./DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_MythicPlusLargePack": "./src/DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_MythicPlusLargePack.ts",
+    "./DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_MythicPlusSmallPack": "./src/DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_MythicPlusSmallPack.ts",
+    "./DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_SingleTargetRaid": "./src/DF4_Demon_Hunter_Vengeance_no_crafted_embellishments_SingleTargetRaid.ts",
     "./DF4_Demon_Hunter_Vengeance_rings_CouncilRaid": "./src/DF4_Demon_Hunter_Vengeance_rings_CouncilRaid.ts",
     "./DF4_Demon_Hunter_Vengeance_rings_MythicPlusLargePack": "./src/DF4_Demon_Hunter_Vengeance_rings_MythicPlusLargePack.ts",
     "./DF4_Demon_Hunter_Vengeance_rings_MythicPlusSmallPack": "./src/DF4_Demon_Hunter_Vengeance_rings_MythicPlusSmallPack.ts",

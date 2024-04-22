@@ -34,12 +34,15 @@ const createDefaultConfigForProfile = (profile: Profile): Config => ({
 export const DF4_Demon_Hunter_Vengeance: Config = createDefaultConfigForProfile(
   "DF4_Demon_Hunter_Vengeance",
 );
+export const DF4_Demon_Hunter_Vengeance_no_crafted: Config =
+  createDefaultConfigForProfile("DF4_Demon_Hunter_Vengeance_no_crafted");
 /* eslint-enable camelcase -- Enabling because the rest does not need to match simc. */
 
 export type ConfigMapping = Record<Profile, Config>;
 export const defaultConfigMapping: ConfigMapping = {
   /* eslint-disable camelcase -- Disabling because this needs to match simc. */
   DF4_Demon_Hunter_Vengeance,
+  DF4_Demon_Hunter_Vengeance_no_crafted,
   /* eslint-enable camelcase -- Enabling because the rest does not need to match simc. */
 };
 export const getDefaultConfig = (profile: Profile): Config =>

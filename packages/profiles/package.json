@@ -14,6 +14,7 @@
   },
   "exports": {
     "./DF4_Demon_Hunter_Vengeance": "./src/DF4_Demon_Hunter_Vengeance.ts",
+    "./DF4_Demon_Hunter_Vengeance_no_crafted": "./src/DF4_Demon_Hunter_Vengeance_no_crafted.ts",
     ".": "./src/index.ts"
   },
   "files": [
