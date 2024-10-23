@@ -48,7 +48,7 @@
   },
   "devDependencies": {
     "@topplethenun/simc-profile-variants-config": "workspace:*",
-    "@types/node": "20.11.30",
+    "@types/node": "20.17.0",
     "fast-cartesian": "9.0.0",
     "prettier": "3.2.5",
     "rimraf": "5.0.5",
